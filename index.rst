@@ -6,6 +6,8 @@ PyCascades
 .. toctree::
    :hidden:
 
+   hike
+
 
 .. raw:: html
 
