@@ -7,12 +7,8 @@ One of the organizers, Eric Holscher, knows a ton about hiking in the
 Portland area, and would love to show off a side of Portland visitors
 don't often see.
 
-Every year we have a conference hike, at this point it's a fantastic
-tradition. We'll be doing the same hike again this year, because it's
-the best one easily accessible from downtown Portland.
-
-It's rained on us the past couple years, but I have faith it will be
-beautiful this year! We shall see Mount Hood at the top :)
+This hike is accessible, leaving directly from downtown Portland and ending at the Zoo.
+The Zoo has a MAX line that will take you right back downtown.
 
 Logistics
 ---------
