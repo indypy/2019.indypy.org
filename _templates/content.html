@@ -55,12 +55,14 @@
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="{{ pathto('index') }}">{{ project }}</a>
-                <a class="navbar-brand page-scroll" href="{{ pathto('hike') }}">Pycon Hike</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="{{ pathto('hike') }}">Pycon Hike</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Get Involved</a>
                     </li>
