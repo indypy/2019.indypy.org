@@ -73,11 +73,9 @@
     <header>
         <div style="margin-top: 150px;" class="container">
             <div class="row">
-                <div class="col-md-12">
-                    {% block body %}
-                      {{ body }}
-                    {% endblock body %}
-                </div>
+                {% block body %}
+                  {{ body }}
+                {% endblock body %}
             </div>
         </div>
     </header>
