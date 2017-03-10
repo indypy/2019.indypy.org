@@ -1,3 +1,5 @@
+:template: content.html
+
 Write the Docs Hike
 ===================
 
