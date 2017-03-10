@@ -1,9 +1,7 @@
-:template: base.html
+:template: landing_page.html
 
-
-Welcome to pycascades's documentation!
-======================================
-
+PyCascades
+==========
 
 .. toctree::
    :hidden:
