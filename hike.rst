@@ -88,6 +88,11 @@ paths through Hoyt, and we can play that by ear. More than 5,800
 specimens from around the world grow here, including more than 1,100
 species, which are valuable in reforesting damaged habitats.
 
+.. figure:: /_static/img/hike/hoyt.png
+   :alt: The view of Hoyt Arboretum
+
+   The view of Hoyt Arboretum
+
 Finish
 ~~~~~~
 
