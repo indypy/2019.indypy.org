@@ -4,6 +4,7 @@
    :hidden:
 
    hike
+   code_of_conduct
 
 
 .. raw:: html

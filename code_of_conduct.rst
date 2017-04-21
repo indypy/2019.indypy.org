@@ -1,5 +1,5 @@
 Code of Conduct
-===============
+---------------
 
 PyCascades is a regional conference made up of a mixture of professionals and
 volunteers from all over the world, working on every aspect of the mission -
@@ -11,7 +11,7 @@ This isn't an exhaustive list of things that you must do, or can't do. Rather, t
 
 
 The principles
-~~~~~~~~~~~~~~
+--------------
 
 * **Be friendly and welcoming.** We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
 
@@ -30,7 +30,7 @@ The principles
 
 
 Where does the code of conduct apply
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 This code of conduct applies to all spaces managed by PyCascades. This includes:
 
@@ -51,7 +51,7 @@ In addition, violations of this code outside these spaces may affect a person's 
 
 
 Sponsors, affiliates, and exhibitors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 When you sponsor a PyCascades event, we welcome you as a member of our community, and we expect you to be respectful to the community you operate within.
 
@@ -61,7 +61,7 @@ In addition, sponsors and affiliates of conference, meetups, and online activiti
 
 
 What to do in case of violations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 If you believe that someone is violating the code of conduct during one of our events, please contact a member of the event staff immediately. Event staff can be identified by t-shirts/special badges.
 
@@ -71,6 +71,6 @@ All reports will be kept confidential. In some cases a public statement might be
 
 
 Thanks
-~~~~~~
+------
 
 This code of conduct is largely based on the `Write The Docs Code of Conduct <http://www.writethedocs.org/code-of-conduct/>`_, which in turn is based on the `Django Project Code of Conduct <https://www.djangoproject.com/conduct/>`_ and the original text of the Speak Up! project, inspired in its turn by the Fedora Project, as well as the Python Mentorship Project and many others.

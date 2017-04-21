@@ -42,6 +42,9 @@
                     <li>
                         <a href="{{ pathto('hike') }}">PyCon Hike</a>
                     </li>
+                    <li>
+                        <a href="{{ pathto('code_of_conduct') }}">Code of Conduct</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -53,8 +56,9 @@
         <div class="container-fluid t bg-defaul text-left">
 	    <div class="col-sm-offset-3 col-sm-6">
 
+            {% block body %}
                 {{ body }}
-
+            {% endblock %}
 	    </div>
 
         </div>
