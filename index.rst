@@ -1,8 +1,5 @@
 :template: content.html
 
-PyCascades
-==========
-
 .. toctree::
    :hidden:
 
@@ -16,8 +13,12 @@ PyCascades
         <div class="header-content-inner">
             <h1>PyCascades is coming!</h1>
 
-            <h2>A new regional PyCon in the Pacific Northwest.</h2>
-            <h2>Starting in beautiful Vancouver, BC 🇨🇦.</h2>
+            <h2>
+                January 22-23, 2018 <br/>
+                Vancouver, BC 🇨🇦
+            </h2>
+
+            <h3>A new regional PyCon in the Pacific Northwest.</h3>
 
     <div style="margin-top: 4rem;">
     <form class='form-inline' action="//pycascades.us15.list-manage.com/subscribe/post?u=910a586d174a45ddb1125ad4e&amp;id=1f87464654" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">

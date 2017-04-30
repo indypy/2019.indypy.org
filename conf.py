@@ -97,6 +97,7 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 
 htmlhelp_basename = 'pycascadesdoc'
+html_add_permalinks = ''
 
 
 def on_page_context(app, pagename, templatename, context, doctree):

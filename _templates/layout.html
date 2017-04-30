@@ -11,21 +11,8 @@
 
     <title>{{ project }}</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="_static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="_static/lib/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="_static/lib/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="_static/lib/device-mockups/device-mockups.min.css">
-
-    <!-- Theme CSS -->
-    <link href="_static/css/new-age.min.css" rel="stylesheet">
+    <link href="_static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="_static/css/bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,38 +20,27 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-	header {
-	    background: 
-	        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    		url('_static/img/cascades_background.jpg');
-	}
-    .headerlink {
-        display: none;
-    }
-    </style>
 </head>
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top affix">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="{{ pathto('index') }}">{{ project }}</a>
+                <a class="navbar-brand page-scroll" href="/">
+                    {{ project }}
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="{{ pathto('hike') }}">Pycon Hike</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Get Involved</a>
+                        <a href="{{ pathto('hike') }}">PyCon Hike</a>
                     </li>
                 </ul>
             </div>
@@ -73,30 +49,11 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div style="margin-top: 150px;" class="container">
-            <div class="row">
-                {% block body %}
-                  {{ body }}
-                {% endblock body %}
-            </div>
-        </div>
-    </header>
-
-    <section id="contact" class="contact bg-default">
-        <div class="container">
+    <section>
+        <div class="container-fluid t bg-defaul text-left">
 	    <div class="col-sm-offset-3 col-sm-6">
-		<h2>Get Involved!</h2>
 
-		<p>
-		Community conferences like PyCascades are only possible
-		because numerous individuals volunteer their time to make it
-		happen and ensure a great time for every one.
-		</p>
-
-		<p>
-		If you'd like to help, email us at <a href="mailto:volunteer@pycascades.com">volunteer@pycascades.com</a>
-		</p>
+                {{ body }}
 
 	    </div>
 

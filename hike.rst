@@ -1,5 +1,3 @@
-:template: content.html
-
 Pycon Hike
 ==========
 
@@ -63,6 +61,7 @@ Park <http://www.forestparkconservancy.org/>`__.
 
 .. figure:: /_static/img/hike/balch.jpg
    :alt: Balch Creek
+   :class: img-responsive center-block
 
    Balch Creek
 
@@ -75,6 +74,7 @@ hopefully Mt. Hood & Mt. St. Helens if it's clear!
 
 .. figure:: /_static/img/hike/pittock.jpg
    :alt: The view from Pittock Mansion
+   :class: img-responsive center-block
 
    The view from Pittock Mansion
 
@@ -90,6 +90,7 @@ species, which are valuable in reforesting damaged habitats.
 
 .. figure:: /_static/img/hike/hoyt.png
    :alt: The view of Hoyt Arboretum
+   :class: img-responsive center-block
 
    The view of Hoyt Arboretum
 
