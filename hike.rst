@@ -11,7 +11,7 @@ The Zoo has a MAX line that will take you right back downtown.
 Logistics
 ---------
 
-This event will be ticketed seperately. 
+This event will be ticketed seperately.  Please email info@pycascades.com to RSVP.
 
 -  Date & Time: Leaves promptly at **Thursday, May 18, 2 PM**. Meet at
    **1:45**.
