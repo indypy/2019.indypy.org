@@ -8,6 +8,10 @@ don't often see.
 This hike is accessible, leaving directly from downtown Portland and ending at the Zoo.
 The Zoo has a MAX line that will take you right back downtown.
 
+We want to be considerate of the trails and other people hiking there. We'll therefore
+limit the number of participants to 25 people so that others can enjoy the area alongside
+us.
+
 Logistics
 ---------
 
