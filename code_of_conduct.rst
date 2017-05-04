@@ -43,7 +43,6 @@ This code of conduct applies to all spaces managed by PyCascades. This includes:
 * Mailing lists
 * GitHub
 * Twitter hashtag
-* forum.writethedocs.org
 * meetup.com discussion boards
 * Any other forums created by the which the community uses for communication.
 
