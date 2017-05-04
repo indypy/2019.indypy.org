@@ -15,7 +15,7 @@ us.
 Logistics
 ---------
 
-This event will be ticketed seperately.  RSVP instruction is coming soon!
+This event will be ticketed separately.  RSVP instruction is coming soon!
 
 -  Date & Time: Leaves promptly at **Thursday, May 18, 2 PM**. Meet at
    **1:45**.
