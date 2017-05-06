@@ -29,11 +29,9 @@ This event will be ticketed separately.  RSVP instruction is coming soon!
 
 We will be hiking in the amazing `Forest
 Park <http://www.forestparkconservancy.org/>`__, the largest urban
-forested park in the country. It is conveniently located in Northwest
-Portland, not far from the conference venue. It's about a 35 minute walk
-from the venue to the park, or you can `take
-transit <https://www.google.com/maps/dir/Crystal+Ballroom,+1332+W+Burnside+St,+Portland,+OR+97209,+United+States/MacLeay+Park+Entrance,+Northwest+Upshur+Street,+Portland,+OR/@45.5290603,-122.707244,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54950a02e43decb9:0xe289ad93ad758c66!2m2!1d-122.68483!2d45.522785!1m5!1m1!1s0x549509e98d3dabd5:0xe1f0810cfb8e8ca8!2m2!1d-122.712528!2d45.535874!3e3?hl=en>`__
-to make it a bit quicker.
+forested park in the country. It is located in Northwest Portland. You can `take
+transit <https://www.google.com/maps/dir/Oregon+Convention+Center,+Northeast+Martin+Luther+King+Junior+Boulevard,+Portland,+OR/MacLeay+Park+Entrance,+Northwest+Upshur+Street,+Portland,+OR/@45.5285883,-122.7040636,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x5495a0adc5ff1af5:0x610cf37babf5b9df!2m2!1d-122.6630186!2d45.5280879!1m5!1m1!1s0x549509e98d3dabd5:0xe1f0810cfb8e8ca8!2m2!1d-122.712522!2d45.535874!3e3?hl=en>`__
+to get there.
 
 .. note:: The hike does not end where it starts. Take this into consideration with
           your planning. There is an out-and-back option if you choose to just go
