@@ -16,7 +16,7 @@
 
             <h2>
                 January 22-23, 2018 <br/>
-                Vancouver, BC 🇨🇦
+                Vancouver, BC <img height="30px" alt="🇨🇦" title="Flag of Canada" src="_static/img/canada_flag.png" aria-label="Emoji: Flag of Canada">
             </h2>
 
             <h3>A new regional PyCon in the Pacific Northwest.</h3>
