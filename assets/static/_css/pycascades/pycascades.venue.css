@@ -1,0 +1,29 @@
+body.venue #main section {
+    color: #FFF;
+}
+
+body.venue #main section .overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+}
+
+body.venue #main section .main {
+    height: auto;
+    padding: 100px 0 60px;
+}
+@media (min-width: 750px) {
+    body.venue #main section .main {
+        height: 100vh;
+        padding: 0;
+    }
+}
+
+body.venue #main #intro .map a {
+    display: block;
+}
+body.venue #main #intro .map img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 4px solid #FFF;
+    box-sizing: border-box;
+}

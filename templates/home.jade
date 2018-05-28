@@ -1,0 +1,110 @@
+extends "base.jade"
+
+block body_class
+    |home
+
+block main
+
+    section#intro
+        .background(du-parallax, y="animator")
+            .image.bg-cover(ff-bg="assets/static/backgrounds/home01.jpg")
+        .overlay
+        .main.vcontainer
+            .inner
+                .logo.bg-contain(ff-bg="assets/static/images/logo.png")
+        a.down(ng-click="scrollTo('welcome')")
+            {# {% include "includes/chevron-down.svg" %} #}
+
+    section#welcome
+        .background
+        .overlay
+        .main.vcontainer
+            .inner
+                .container
+                    .row.fade-up(in-view)
+                        .one-half.column
+                            h2 Thank you.
+                        .one-half.column
+                            p.
+                                The first PyCascades conference was a success!
+                                Thank you to everyone who attended,
+                                contributed, volunteered, and sponsored this
+                                event. We're looking forward to seeing you all
+                                again next year!
+                            p.
+                                PyCascades is a new regional PyCon in the
+                                Pacific Northwest, celebrating the West Coast
+                                Python developer and user community. Our
+                                organizer team includes members of the
+                                Vancouver, Seattle, and Portland Python user
+                                groups.
+                            h3.caps.
+                                January 22-23, 2018#[br]
+                                Granville Island Stage#[br]
+                                Vancouver, BC, Canada
+
+    section#sponsors
+        .main.vcontainer
+            .inner
+                .container
+                    {# {% include "includes/sponsor_logos.jade" %} #}
+
+    section#tweets
+        .main.vcontainer
+            .inner
+                .container
+                    h2 Join the conversation!
+                    blockquote.twitter-tweet(data-lang="en")
+                        p
+                            a(href="https://twitter.com/gvanrossum/status/897508112680099840")
+                    blockquote.twitter-tweet(data-lang="en")
+                        p
+                            a(href="https://twitter.com/pycascades/status/897175334478532610")
+                    blockquote.twitter-tweet(data-lang="en")
+                        p
+                            a(href="https://twitter.com/ThePSF/status/896461306127147011")
+                    script(async, src="//platform.twitter.com/widgets.js", charset="utf-8")
+                    p.follow
+                        a(href="{{ TWITTER_URL }}", target="_blank")
+                            |Follow us on Twitter
+
+    section#speakers
+        .main.vcontainer
+            .inner
+                .container.fade-up(in-view)
+                    .item-list
+                        {% for talk in talks %}
+                        {% with speaker=talk.speaker %}
+                        a.item(href="")
+                            {% if speaker.headshot %}
+                            .headshot.image.bg-contain(
+                                ff-bg="{{ speaker.get_headshot.image.url }}",
+                                ff-bg-2x="{{ speaker.get_headshot_2x.image.url }}"
+                            )
+                            {% else %}
+                            .headshot.image.bg-contain(
+                                ff-bg="assets/static/images/headshot.png"
+                            )
+                            {% endif %}
+                            h4 {{ speaker.byline }}
+                            .title {{ talk.title }}
+                        {% endwith %}
+                        {% endfor %}
+
+    section#coming
+        .background(du-parallax, y="animator")
+            .image.bg-cover(ff-bg="assets/static/backgrounds/home03.jpg")
+        .overlay
+        .main.vcontainer
+            .inner
+                .container.fade-up(in-view)
+                    h2 Stay connected
+                    p.
+                        We've already started working on PyCascades 2019!#[br]
+                        Enter your email address below to be added to our
+                        announcement list. We promise not to share your email
+                        with anyone else.
+                    {# {% include "includes/subscribe.jade" %} #}
+
+block logos
+    {# omit #}
