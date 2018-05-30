@@ -1,3 +1,6 @@
 [project]
 name = PyCascades 2019
 
+[packages]
+lektor-rst = 0.1
+

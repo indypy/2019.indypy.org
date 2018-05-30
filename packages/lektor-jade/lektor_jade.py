@@ -29,10 +29,25 @@ class JadeTemplatePlugin(Plugin):
     description = "Add Jade support to Jinja2 templates"
 
     def on_setup_env(self, **extra):
-        css_bundle = get_bundle_for('css', filters='cssmin')
-        #js_bundle = get_bundle_for('js', filters='uglifyjs')
 
-        webasset_env.register('css_bundle', css_bundle)
+        webasset_env.register('css_bundle', Bundle(
+            "_css/skeleton/normalize.css",
+            "_css/skeleton/skeleton.css",
+            "_css/misc/ff.common.css",
+            "_css/pycascades/pycascades.css",
+            "_css/pycascades/pycascades.tito.css",
+            "_css/pycascades/pycascades.content.css",
+            "_css/pycascades/pycascades.home.css",
+            "_css/pycascades/pycascades.news.css",
+            "_css/pycascades/pycascades.about.css",
+            "_css/pycascades/pycascades.venue.css",
+            "_css/pycascades/pycascades.tickets.css",
+            "_css/pycascades/pycascades.speakers.css",
+            "_css/pycascades/pycascades.sponsors.css",
+            "_css/pycascades/pycascades.talks.css",
+            filters = 'cssmin',
+            output = "css/pycascades.css",
+        ))
 
         webasset_env.register('js_bundle', Bundle(
             "_js/misc/modernizr.js",

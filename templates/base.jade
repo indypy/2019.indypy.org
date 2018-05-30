@@ -37,20 +37,12 @@ html
                     .logo
                         a.bg-contain.bg-ir(
                             href="{{ SITE_URL }}",
-                            ff-bg="assets/static/images/header-logo.png"
+                            ff-bg="static/images/header-logo.png"
                         ) PyCascades 2018
+                {% include "includes/nav.jade" %}
 
             #main
-
                 block main
-
-                block logos
-                    #sponsors.container
-                        {# {% include "includes/sponsor_logos.jade" %} #}
-
-            #banner
-                a(href="")
-                    strong TIckets#[br]Sold&nbsp;Out!
 
             footer
                 .container
@@ -71,7 +63,7 @@ html
                                 |#[i.fa.fa-instagram] PyCascades
 
             a#menu-trigger.bg-contain(
-                ff-bg="assets/static/images/menu.svg",
+                ff-bg="static/images/menu.svg",
                 ng-click="isMenuVisible=!isMenuVisible"
             )
             #menu.ng-cloak(
@@ -79,7 +71,7 @@ html
                 ng-click="isMenuVisible=false"
             )
                 a.close.bg-contain(
-                    ff-bg="assets/static/images/close.svg",
+                    ff-bg="static/images/close.svg",
                     ng-click="isMenuVisible=false"
                 )
 

@@ -1,0 +1,89 @@
+- load staticfiles
+- load sponsor_list
+
+{% get_sponsors as sponsors %}
+
+.sponsor-logos
+    {% if sponsors.title %}
+    .item-list
+        {% for sponsor in sponsors.title %}
+        {% if sponsor.logo %}
+        .item.title
+            a.bg-contain(
+                href="{{ sponsor.url }}",
+                target="_blank",
+                ff-bg="{{ sponsor.logo.url }}"
+            )
+        {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if sponsors.exhibitor %}
+    .item-list
+        {% for sponsor in sponsors.exhibitor %}
+        {% if sponsor.logo %}
+        .item.exhibitor
+            a.bg-contain(
+                href="{{ sponsor.url }}",
+                target="_blank",
+                ff-bg="{{ sponsor.logo.url }}"
+            )
+        {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if sponsors.underwriter %}
+    .item-list
+        {% for sponsor in sponsors.underwriter %}
+        {% if sponsor.logo %}
+        .item.underwriter
+            a.bg-contain(
+                href="{{ sponsor.url }}",
+                target="_blank",
+                ff-bg="{{ sponsor.logo.url }}"
+            )
+        {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if sponsors.corporate %}
+    .item-list
+        {% for sponsor in sponsors.corporate %}
+        {% if sponsor.logo %}
+        .item.corporate
+            a.bg-contain(
+                href="{{ sponsor.url }}",
+                target="_blank",
+                ff-bg="{{ sponsor.logo.url }}"
+            )
+        {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if sponsors.private %}
+    .item-list
+        {% for sponsor in sponsors.private %}
+        {% if sponsor.logo %}
+        .item.private
+            a.bg-contain(
+                href="{{ sponsor.url }}",
+                target="_blank",
+                ff-bg="{{ sponsor.logo.url }}"
+            )
+        {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if sponsors.inkind %}
+    .item-list
+        {% for sponsor in sponsors.inkind %}
+        {% if sponsor.logo %}
+        .item.inkind
+            a.bg-contain(
+                href="{{ sponsor.url }}",
+                target="_blank",
+                ff-bg="{{ sponsor.logo.url }}"
+            )
+        {% endif %}
+        {% endfor %}
+    {% endif %}
