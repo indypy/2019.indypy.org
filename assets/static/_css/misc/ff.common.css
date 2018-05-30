@@ -20,9 +20,19 @@
 .vcontainer:before {
     content: "";
     display: inline-block;
-    height: 100%;
     vertical-align: middle;
+    /* This is just a hack, needs proper fixing!!! */
+    /* height: 100%; */
+    margin-top: 10vh;
 }
+
+@media (min-width: 750px) {
+    .vcontainer:before {
+        /* This is just a hack, needs proper fixing!!! */
+        margin-top: 20vh;
+    }
+}
+
 .vcontainer > .inner {
     display: inline-block;
     width: 100%;

@@ -3,13 +3,26 @@ doctype html
 html
 
     head
-        title {% block page_title %}PyCascades{% endblock %}
+        title {% block page_title %}PyCascades - 2019 - Seattle, WA{% endblock %}
         meta(charset="UTF-8")
         meta(http-equiv="content-Language", content="en_US")
         meta(name="google", content="notranslate") {# TEMP #}
         meta(
             name="viewport",
             content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"
+        )
+        meta(
+            name="description",
+            content="Website for PyCascades 2019, a regional Python conferences in the Pacific Northwest, this time in Seattle, Washington, USA."
+        )
+        meta(
+            name="keywords",
+            content="Python,PyCon,Conference,Seattle,PNW"
+        )
+        meta(property="og:url", content="http://www.pycascades.com")
+        meta(
+            property="og:description",
+            content="Website for PyCascades 2019, a regional Python conferences in the Pacific Northwest, this time in Seattle, Washington, USA."
         )
         link(
             rel="stylesheet",
@@ -38,11 +51,15 @@ html
                         a.bg-contain.bg-ir(
                             href="{{ SITE_URL }}",
                             ff-bg="static/images/header-logo.png"
-                        ) PyCascades 2018
+                        ) PyCascades 2019
                 {% include "includes/nav.jade" %}
 
             #main
                 block main
+
+            #banner
+                a(href="")
+                    strong CFP#[br]Starting&nbsp;Soon!
 
             footer
                 .container
@@ -56,10 +73,10 @@ html
                         li
                             a(href="") Speak
                         li.twitter
-                            a(href="{{ TWITTER_URL }}", target="_blank")
+                            a(href="{{ bag('pycascades.TWITTER_URL') }}", target="_blank")
                                 |#[i.fa.fa-twitter] PyCascades
                         li.instagram
-                            a(href="{{ INSTAGRAM_URL }}", target="_blank")
+                            a(href="{{ bag('pycascades.INSTAGRAM_URL') }}", target="_blank")
                                 |#[i.fa.fa-instagram] PyCascades
 
             a#menu-trigger.bg-contain(
