@@ -74,6 +74,12 @@ class JadeTemplatePlugin(Plugin):
 
     def on_setup_env(self, **extra):
 
+        def envvars(name):
+            return os.getenv(f"LEKTOR_{name}".upper())
+
+        self.env.jinja_env.globals.update({
+            "envvars": envvars,
+        })
         webasset_env.register('css_bundle', Bundle(
             "_css/skeleton/normalize.css",
             "_css/skeleton/skeleton.css",
@@ -107,6 +113,7 @@ class JadeTemplatePlugin(Plugin):
             output="js/pycascades.js",
         ))
 
+    def on_before_build_all(self, builder, **extra):
         self.env.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
         self.env.jinja_env.globals.update(
             CSS_URL=webasset_env['css_bundle'].urls()[0],

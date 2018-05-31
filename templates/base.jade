@@ -101,7 +101,8 @@ html
                 pycascades.start(data);
 
         block analytics
-            {% if IS_LIVE and GOOGLE_ANALYTICS_ID %}
+            {% set GOOGLE_ANALYTICS_ID = bag('pycascades.GOOGLE_ANALYTICS_ID') %}
+            {% if envvars('IS_LIVE') and GOOGLE_ANALYTICS_ID %}
             script.
                 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
