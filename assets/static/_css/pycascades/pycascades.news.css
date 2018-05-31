@@ -8,7 +8,7 @@ body.news .posting h2 {
 }
 body.news .posting h1 a,
 body.news .posting h2 a {
-    color: inherit;
+    color: #7100FF;
     text-decoration: none;
 }
 body.news .posting .meta {
