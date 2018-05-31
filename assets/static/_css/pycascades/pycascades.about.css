@@ -9,6 +9,7 @@ body.about.organizers .item {
     width: 275px;
     margin: 20px;
     vertical-align: top;
+    margin-bottom: 50px;
 }
 body.about.organizers .headshot {
     display: block;
