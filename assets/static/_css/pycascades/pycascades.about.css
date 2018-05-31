@@ -6,15 +6,15 @@ body.about.organizers .item-list {
 }
 body.about.organizers .item {
     display: inline-block;
-    width: 280px;
-    margin: 40px 20px;
+    width: 275px;
+    margin: 20px;
     vertical-align: top;
 }
 body.about.organizers .headshot {
     display: block;
     margin: 0 auto;
-    width: 275px;
-    height: 275px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     border-radius: 50%;
     opacity: 0;
