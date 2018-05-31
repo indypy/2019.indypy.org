@@ -1,7 +1,7 @@
 nav
     ul
         li.home
-            a(href="") Home
+            a(href="{{ '/'|url }}") Home
         li.about
             a(href="") About
             ul
@@ -9,7 +9,7 @@ nav
                     a(href="") About the Conference
                 li.organizers
                     a(href="{{ '/organizers'|url }}") Organizers
+                li.conduct
+                    a(href="/code-of-conduct") Code of Conduct
         li.news
             a(href="") News
-        li.conduct
-            a(href="/code-of-conduct") Code of Conduct

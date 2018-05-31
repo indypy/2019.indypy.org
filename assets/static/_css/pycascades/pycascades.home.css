@@ -17,6 +17,10 @@
     }
 }
 
+body.home header nav > ul > li.home {
+    display: none;
+}
+
 body.home #intro {
     color: #FFF;
 }

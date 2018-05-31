@@ -267,7 +267,9 @@ header nav {
         color: #FFF;
     }
     /* Omit these from the desktop menu bar */
-    header nav > ul > li.home,
+    header nav>ul>li.home {
+        display: inline-block;
+    }
     header nav > ul > li.volunteer,
     header nav > ul > li.contact {
         display: none;
