@@ -39,23 +39,25 @@ block main
                                 Vancouver, Seattle, and Portland Python user
                                 groups.
                             h3.caps.
-                                January 22-23, 2018#[br]
-                                Granville Island Stage#[br]
-                                Vancouver, BC, Canada
+                                March, 2019#[br]
+                                Seattle, WA, USA
 
-    section#coming
+    section#newsletter
         .background(du-parallax, y="animator")
             .image.bg-cover(ff-bg="static/backgrounds/seattle-market.jpg")
         .overlay
         .main.vcontainer
             .inner
                 .container.fade-up(in-view)
-                    h2 Stay connected
+                    h2 Follow our Announcements
                     p.
-                        We've already started working on PyCascades 2019!#[br]
-                        Enter your email address below to be added to our
-                        announcement list. We promise not to share your email
-                        with anyone else.
+                        We'll make announcements here!#[br]
+                        Add yourself to the list and hear the latest updates as
+                        they happen.
+
+                    p.
+                        We promise not to share your email with anyone else.
+
                     {% include "includes/subscribe.jade" %}
 
     section#tweets
@@ -63,15 +65,11 @@ block main
             .inner
                 .container
                     h2 Join the conversation!
+                    {% for tweet_url in bag('tweets').TWEETS %}
                     blockquote.twitter-tweet(data-lang="en")
                         p
-                            a(href="https://twitter.com/gvanrossum/status/897508112680099840")
-                    blockquote.twitter-tweet(data-lang="en")
-                        p
-                            a(href="https://twitter.com/pycascades/status/897175334478532610")
-                    blockquote.twitter-tweet(data-lang="en")
-                        p
-                            a(href="https://twitter.com/ThePSF/status/896461306127147011")
+                            a(href="{{ tweet_url }}")
+                    {% endfor %}
                     script(async, src="//platform.twitter.com/widgets.js", charset="utf-8")
                     p.follow
                         a(href="{{ TWITTER_URL }}", target="_blank")

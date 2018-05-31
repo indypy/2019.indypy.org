@@ -127,20 +127,21 @@ body.home #tweets .follow a:hover {
     text-decoration: underline;
 }
 
-body.home #coming {
+body.home #newsletter {
     color: #FFF;
 }
-body.home #coming .overlay {
+body.home #newsletter .overlay {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
 }
-body.home #coming .main {
+body.home #newsletter .main {
     text-align: center;
 }
-body.home #coming .main input {
+body.home #newsletter .main input {
     background: #000;
     color: #808080;
+    width: 40%;
 }
-body.home #coming .main button {
+body.home #newsletter .main button {
     background: #616161;
     color: #FFF;
 }
