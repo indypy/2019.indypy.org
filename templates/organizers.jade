@@ -14,89 +14,17 @@ block main
         h1 {{ this.title }}
 
         p.
-            PyCascades is organized by members of the Vancouver, Seattle, and
-            Portland Python communities. We are committed to hosting a diverse,
-            accessible, and memorable conference.
+            {{ this.description.html }}
 
         .item-list
 
             {% set organizers = site.query('/organizers').include_undiscoverable(True) %}
             {% for organizer in organizers.filter(F.title == 'Conference Chair') %}
-            .item
-                {% set headshot = organizer.attachments.get('headshot.jpg') %}
-                {% if headshot %}
-                .headshot.image.bg-contain(
-                    ff-bg="{{ headshot.thumbnail(200).url_path }}",
-                    ff-bg-2x="{{ headshot.thumbnail(400).url_path }}"
-                )
-                {% else %}
-                .headshot.image.bg-contain(
-                    ff-bg="/static/images/headshot.jpg",
-                    ff-bg-2x="/static/images/headshot.jpg",
-                )
-                {% endif %}
-                h2 {{ organizer.name }}
-                .title {{ organizer.title }}
-                .biography
-                    {{ organizer.biography.html }}
-                .contact
-                    {% if organizer.email %}
-                    .email
-                        a(href="mailto:{{ organizer.email }}").
-                            #[i.fa.fa-envelope] {{ organizer.email }}
-                    {% endif %}
-                    {% if organizer.twitter %}
-                    .twitter
-                        a(
-                            href="https://www.twitter.com/{{ organizer.twitter }}",
-                            target="_blank"
-                        ).
-                            #[i.fa.fa-twitter] {{ organizer.twitter }}
-                    {% endif %}
-                    {% if organizer.phone %}
-                    .phone
-                        a(href="tel:{{ organizer.get_raw_phone }}").
-                            #[i.fa.fa-phone] {{ organizer.phone }}
-                    {% endif %}
+            {% include "includes/organizer.jade" %}
             {% endfor %}
 
         .item-list
 
             {% for organizer in organizers.filter(F.title != 'Conference Chair') %}
-            .item
-                {% set headshot = organizer.attachments.get('headshot.jpg') %}
-                {% if headshot %}
-                .headshot.image.bg-contain(
-                    ff-bg="{{ headshot.thumbnail(200)|url }}",
-                    ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
-                )
-                {% else %}
-                .headshot.image.bg-contain(
-                    ff-bg="/static/images/headshot.jpg",
-                    ff-bg-2x="/static/images/headshot.jpg",
-                )
-                {% endif %}
-                h2 {{ organizer.name }}
-                .title {{ organizer.title }}
-                .biography
-                    {{ organizer.biography.html }}
-                .contact
-                    {% if organizer.email %}
-                    .email
-                        a(href="mailto:{{ organizer.email }}").
-                            #[i.fa.fa-envelope] {{ organizer.email }}
-                    {% endif %}
-                    {% if organizer.twitter %}
-                    .twitter
-                        a(
-                            href="https://www.twitter.com/{{ organizer.twitter }}",
-                            target="_blank"
-                        ).
-                            #[i.fa.fa-twitter] {{ organizer.twitter }}
-                    {% endif %}
-                    {% if organizer.phone %}
-                    .phone
-                        a(href="tel:{{ organizer.get_raw_phone }}").
-                            #[i.fa.fa-phone] {{ organizer.phone }}
-                    {% endif %}
+            {% include "includes/organizer.jade" %}
             {% endfor %}

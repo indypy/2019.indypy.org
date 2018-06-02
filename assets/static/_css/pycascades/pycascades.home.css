@@ -103,7 +103,7 @@ body.home #sponsors .main {
 body.home #tweets {
     background-image:
         linear-gradient(-180deg, #FFFFFF 2%, #ABABAB 88%),
-        radial-gradient(70% 103%, #42E172 31%, #2EA051 100%);
+        radial-gradient(70% 103%, #7B25FB 31%, #40208A 100%);
     background-blend-mode: multiply;
     color: #FFF;
 }
