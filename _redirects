@@ -1,0 +1,2 @@
+# Redirect domain aliases to primary domain
+https://www.pycascades.com/* https://2019.pycascades.com/:splat 302!
