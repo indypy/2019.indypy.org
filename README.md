@@ -1,5 +1,7 @@
 # Website for PyCascades
 
+🚨🚨🚨🚨 Pushing or merging to master will automatically deploy 🚨🚨🚨🚨
+
 Just a few notes on how to work with this setup for the website. The most
 important is that we are using the static site generator
 [Lektor](https://www.getlektor.com/) and are hosting the content on
@@ -77,11 +79,6 @@ are pushed to Github will be built on Netlify and will be available on a unique
 URL. If you need access to the Netlify account, ask Seb.
 
 The `master` branch is the Production branch. 
-
-> At this point, we are not automatically deploying from `master` to the live
-> site. A deploy will be created and viewable but it has to be set as the
-> live deploy manually
-> [in Netlify](https://app.netlify.com/sites/2019-pycascades/deploys).
 
 
 ## Questions?
