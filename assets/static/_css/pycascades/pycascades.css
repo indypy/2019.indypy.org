@@ -356,6 +356,7 @@ header nav {
 #main section .main {
     position: relative;
     height: 100vh;
+    padding-top: 2em;
 }
 #main section .main .row {
     text-align: left;
@@ -667,6 +668,7 @@ footer .links li a:hover {
 
 .subscribe-form {
 }
+
 .subscribe-form input,
 .subscribe-form button {
     display: inline-block;
