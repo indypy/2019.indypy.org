@@ -160,14 +160,16 @@ body.home #newsletter .main button {
     padding-right: 5px;
     text-align: center;
 }
-@media (min-width: 820px) {
+@media (min-width: 750px) {
     body.home #newsletter .main input {
         max-width: 60%;
     }
     body.home #newsletter .main button {
         max-width: 20%;
     }
+    body.home #newsletter .{
 }
+
 body.home #newsletter .social .fa {
     color: black;
     font-size: 30px;
