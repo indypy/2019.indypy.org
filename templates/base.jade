@@ -50,12 +50,14 @@ html
                     .logo
                         a.bg-contain.bg-ir(
                             href="{{ SITE_URL }}",
-                            ff-bg="static/images/header-logo.png"
+                            ff-bg="/static/images/header-logo.png"
                         ) PyCascades 2019
                 {% include "includes/nav.jade" %}
 
             #main
                 block main
+
+                block logos
 
             #banner
                 a(href="")
@@ -66,12 +68,6 @@ html
                     ul.links
                         li
                             a(href="{{ '/code-of-conduct'|url }}") Code of Conduct
-                        //li
-                        //    a(href="") Contact
-                        //li
-                        //    a(href="") Volunteer
-                        //li
-                        //    a(href="") Speak
                         li.slack
                             a(href="{{ bag('pycascades.SLACK_URL') }}", target="_blank")
                                 |#[i.fa.fa-slack] PyCascades
@@ -83,7 +79,7 @@ html
                                 |#[i.fa.fa-instagram] PyCascades
 
             a#menu-trigger.bg-contain(
-                ff-bg="static/images/menu.svg",
+                ff-bg="/static/images/menu.svg",
                 ng-click="isMenuVisible=!isMenuVisible"
             )
             #menu.ng-cloak(
@@ -91,9 +87,10 @@ html
                 ng-click="isMenuVisible=false"
             )
                 a.close.bg-contain(
-                    ff-bg="static/images/close.svg",
+                    ff-bg="/static/images/close.svg",
                     ng-click="isMenuVisible=false"
                 )
+                {% include "includes/nav.jade" %}
 
         block bottom
             script.

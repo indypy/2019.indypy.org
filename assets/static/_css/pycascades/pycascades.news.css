@@ -1,5 +1,5 @@
 body.news .posting {
-    margin: 4ex 0;
+    margin: 2ex 0;
     padding: 2ex 0;
 }
 body.news .posting h1,
@@ -12,10 +12,10 @@ body.news .posting h2 a {
     text-decoration: none;
 }
 body.news .posting .meta {
-    margin-bottom: 4ex;
+    margin-top: 1.1ex;
+    margin-bottom: 2ex;
     color: #B0B0B0;
     font-size: 80%;
-    text-transform: uppercase;
 }
 body.news.posting-list .posting .meta {
     border-bottom: 1px solid #F0F0F0;

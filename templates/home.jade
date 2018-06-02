@@ -42,36 +42,39 @@ block main
 
     section#newsletter
         .background(du-parallax, y="animator")
-            .image.bg-cover(ff-bg="static/backgrounds/seattle-market.jpg")
+            .image.bg-cover(ff-bg="static/backgrounds/announcements.jpg")
         .overlay
         .main.vcontainer
             .inner
                 .container.fade-up(in-view)
-                    h2 Follow our Announcements
-                    p.
-                        We'll make announcements here!#[br]
-                        Add yourself to the list and hear the latest updates as
-                        they happen.
+                    .row
+                        h2 Follow The Conversation
+                        p.
+                            Join our newsletter to hear the latest news as
+                            soon as we announce them.
+                        p.
+                            We promise, we won't overload your inbox.
 
-                    p.
-                        We promise not to share your email with anyone else.
+                        {% include "includes/subscribe.jade" %}
 
-                    {% include "includes/subscribe.jade" %}
+                    .row
+                        .one-half.column.social
+                            a(
+                                href="{{ bag('pycascades.TWITTER_URL') }}",
+                                target="_blank"
+                            ).
+                                #[i.fa.fa-2x.fa-twitter]
+                            | You can also follow us. 
 
-    section#tweets
-        .main.vcontainer
-            .inner
-                .container
-                    h2 Join the conversation!
-                    {% for tweet_url in bag('tweets').TWEETS %}
-                    blockquote.twitter-tweet(data-lang="en")
-                        p
-                            a(href="{{ tweet_url }}")
-                    {% endfor %}
-                    script(async, src="//platform.twitter.com/widgets.js", charset="utf-8")
-                    p.follow
-                        a(href="{{ TWITTER_URL }}", target="_blank")
-                            |Follow us on Twitter
+                        .one-half.column.social
+                            a(
+                                href="{{ bag('pycascades.SLACK_URL') }}",
+                                target="_blank"
+                            ).
+                                #[i.fa.fa-2x.fa-slack]
+
+                            | Or join our Slack team.
+
 
 block logos
     {# omit #}
