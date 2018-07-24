@@ -7,3 +7,5 @@ _build/
 
 assets/static/css/
 assets/static/js/
+
+env
