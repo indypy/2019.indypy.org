@@ -356,7 +356,6 @@ header nav {
 #main section .main {
     position: relative;
     height: 100vh;
-    padding-top: 2em;
 }
 #main section .main .row {
     text-align: left;
