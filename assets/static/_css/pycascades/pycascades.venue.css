@@ -2,6 +2,15 @@ body.venue #main section {
     color: #FFF;
 }
 
+body.venue #main section a {
+    color: #fff;
+}
+
+body.venue #main section .image-credit {
+    text-align: right;
+    font-size: 0.7em;
+}
+
 body.venue #main section .overlay {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
 }
@@ -17,13 +26,10 @@ body.venue #main section .main {
     }
 }
 
-body.venue #main #intro .map a {
-    display: block;
+body.venue #main #map {
+    min-height: 200px;
 }
-body.venue #main #intro .map img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border: 4px solid #FFF;
-    box-sizing: border-box;
+
+body.venue #main #map .overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
 }

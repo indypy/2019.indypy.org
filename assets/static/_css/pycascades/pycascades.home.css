@@ -197,3 +197,9 @@ section#intro {
     background: linear-gradient(rgb(0, 0, 0), rgb(42, 42, 42));
     color: #FFF;
 }
+
+body.home #intro .dates {
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+}

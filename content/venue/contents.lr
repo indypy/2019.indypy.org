@@ -1,0 +1,25 @@
+_template: venue.jade
+---
+title: Our Venue
+---
+background: /static/backgrounds/uwashington-campus.jpg
+---
+body:
+
+**Kane Hall @ University of Washington**
+
+Just north of Portage Bay lays one of the most beautiful campuses in the United
+States, the University of Washington. It's historical buildings are surrounded
+by an overwhelming amount of green spaces, one of which is Kane Hall, the
+location for PyCascades 2019.
+
+Around the campus, the `University District <https://www.visitseattle.org/neighborhoods/university-district/>`_
+is shaped by the youthful energy of
+the student calling this part of Seattle their home. The abundance of coffee
+shops, pubs and restaurants are a reflection of its demographic. 
+
+---
+credit:
+
+Image credit: `Atomic Taco <https://flic.kr/p/G78z7F>`_
+(`CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0/>`_)
