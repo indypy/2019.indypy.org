@@ -1,0 +1,48 @@
+_template: page.jade
+---
+title: Become A Sponsor
+---
+body:
+
+Become our Sponsor
+-------------------
+
+PyCascades is a Python conference for the Pacific Northwest. Our mission is to
+improve the Python community and Python tools that you use daily. This work
+can’t be done without the generous financial support that organizations like
+yours provide us.
+
+
+Sponsors
+~~~~~~~~~
+
+Thank you to all of `the sponsors that have already committed </sponsors>`_!
+You make all of this possible! 
+
+
+Levels & Benefits
+~~~~~~~~~~~~~~~~~
+
+You can find more details on **corporate** sponsorship tiers in our prospectus:
+
+`Corporate Sponsorship Prospectus (PDF)
+<https://drive.google.com/open?id=15oaUcuN8upypRENSsOTc_D_5EHbtH3sN>`_
+
+For organizations that are registered as **non-profits** or work in the fields of
+**education and academia**, we have created several special sponsorship tiers:
+
+`Non-profit and Academic Sponsorship Prospectus (PDF)
+<https://drive.google.com/open?id=1Xuf56J6kCxerkxi6W6O4ijVjLZVUhvw1>`_
+
+
+Event Discounts
+~~~~~~~~~~~~~~~~
+
+Sponsors who support us in one event at the standard rate get 30% off in all
+future events (*consecutive years of sponsorship*)!
+
+
+.. compound::
+    :class: footnote
+
+    PyCascades is a direct project of the Python Software Foundation (“the PSF”). In addition to tax deductibility as a marketing expense for our sponsors, any applicable benefits of the PSF’s 501(c)3 designation from the IRS also may apply. Determination letter from the IRS designating the PSF as a charitable organization available `from the PSF website <https:www.python.org/m/files/determination_letter_05May06.pdf>`_.

@@ -1,0 +1,10 @@
+_template: page.jade
+---
+title: Our Sponsors
+---
+body:
+
+Our Sponsors
+-------------
+
+Learn more about `how to become a sponsor </become-a-sponsor>`_.

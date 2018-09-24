@@ -709,3 +709,8 @@ body.error #main {
 .conduct-violations ul {
     padding-left: 2ex;
 }
+
+.footnote {
+    font-size: 1.5rem;
+    color: #7100FF;
+}
