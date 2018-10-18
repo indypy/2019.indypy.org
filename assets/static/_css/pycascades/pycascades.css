@@ -613,24 +613,28 @@ footer .links li a:hover {
 #sponsors .sponsor-logos {
     margin: 0 0 60px;
 }
+#sponsors .sponsor-logos .heading {
+    text-align: center;
+    margin-top: 25px;
+}
 #sponsors .sponsor-logos .item {
     display: inline-block;
     width: 150px;
     height: 70px;
     margin: 10px 20px;
 }
-#sponsors .sponsor-logos .item.title {
+#sponsors .sponsor-logos .item.diamond {
     display: block;
     width: 335px;
     height: 100px;
     margin: 0 auto;
 }
-#sponsors .sponsor-logos .item.exhibitor {
+#sponsors .sponsor-logos .item.platinum {
     width: 250px;
     height: 66px;
 }
-#sponsors .sponsor-logos .item.underwriter,
-#sponsors .sponsor-logos .item.corporate {
+#sponsors .sponsor-logos .item.gold,
+#sponsors .sponsor-logos .item.silver{
     width: 200px;
     height: 50px;
 }
@@ -653,13 +657,13 @@ footer .links li a:hover {
         height: 100px;
         margin: 0 40px;
     }
-    #sponsors .sponsor-logos .item.title{
+    #sponsors .sponsor-logos .item.diamond {
         width: 640px;
         height: 200px;
     }
-    #sponsors .sponsor-logos .item.exhibitor,
-    #sponsors .sponsor-logos .item.underwriter,
-    #sponsors .sponsor-logos .item.corporate {
+    #sponsors .sponsor-logos .item.item.platinum,
+    #sponsors .sponsor-logos .item.item.gold,
+    #sponsors .sponsor-logos .item.silver {
         width: 300px;
         height: 120px;
     }

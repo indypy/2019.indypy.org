@@ -72,6 +72,54 @@ $ lektor clean -yes && lektor server
 Also let Seb know that he needs to fix this 😇.
 
 
+## Adding Sponsors
+
+We have a data model for sponsors that will automatically include it into the
+website. Adding an new sponsor to show up on the website, follow these steps:
+
+Create a new folder for the sponsor in `contents/sponsors`:
+
+```
+$ mkdir contents/sponsors/google-cloud-platform
+```
+
+Now create a `content.lr` file inside this new directory using this template:
+
+```
+_hidden: yes
+---
+name: 
+---
+tier:
+---
+website:
+---
+logo:
+---
+signed_on:
+```
+
+The `_hidden` entry prevents a website from being created for the individual
+sponsor. We only want them to show up as part of the sponsor listing.
+
+Copy the logo for the sponsor into the same directory and complete all the
+fields in the `contents.lr` file. This could look something like this:
+
+```
+_hidden: yes
+---
+name: Google Cloud Platform
+---
+tier: diamond
+---
+website: http://cloud.google.com
+---
+logo: logo_cloud_color.svg
+---
+signed_on: 2018-09-28
+```
+
+
 ## Deploying the site to Netlify
 
 Our Netlify setup is integrated with Github. That means **all branches** that

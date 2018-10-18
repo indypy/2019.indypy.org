@@ -1,89 +1,61 @@
-- load staticfiles
-- load sponsor_list
-
-{% get_sponsors as sponsors %}
+{% set sponsors = site.query('/sponsors').include_undiscoverable(True) %}
 
 .sponsor-logos
-    {% if sponsors.title %}
+    div.heading
+        h3 Diamond
+
     .item-list
-        {% for sponsor in sponsors.title %}
-        {% if sponsor.logo %}
-        .item.title
+        {% for sponsor in sponsors.filter(F.tier == "diamond") %}
+        .item.diamond
             a.bg-contain(
-                href="{{ sponsor.url }}",
-                target="_blank",
-                ff-bg="{{ sponsor.logo.url }}"
+                href="{{sponsor.website}}"
+                target="_blank"
+                ff-bg="{{sponsor.url_path }}/{{sponsor.logo}}"
             )
-        {% endif %}
+        {% endfor %}
+
+    {% if sponsors.filter(F.tier == "platinum") %}
+    div.heading
+        h3 Platinum
+
+
+    .item-list
+        {% for sponsor in sponsors.filter(F.tier == "platinum") %}
+        .item.platinum
+            a.bg-contain(
+                href="{{sponsor.website}}"
+                target="_blank"
+                ff-bg="{{sponsor.url_path }}/{{sponsor.logo}}"
+            )
         {% endfor %}
     {% endif %}
 
-    {% if sponsors.exhibitor %}
+    {% if sponsors.filter(F.tier == "gold") %}
+    div.heading
+        h3 Gold
+
     .item-list
-        {% for sponsor in sponsors.exhibitor %}
-        {% if sponsor.logo %}
-        .item.exhibitor
+        {% for sponsor in sponsors.filter(F.tier == "gold") %}
+        .item.gold
             a.bg-contain(
-                href="{{ sponsor.url }}",
-                target="_blank",
-                ff-bg="{{ sponsor.logo.url }}"
+                href="{{sponsor.website}}"
+                target="_blank"
+                ff-bg="{{sponsor.url_path }}/{{sponsor.logo}}"
             )
-        {% endif %}
         {% endfor %}
     {% endif %}
 
-    {% if sponsors.underwriter %}
-    .item-list
-        {% for sponsor in sponsors.underwriter %}
-        {% if sponsor.logo %}
-        .item.underwriter
-            a.bg-contain(
-                href="{{ sponsor.url }}",
-                target="_blank",
-                ff-bg="{{ sponsor.logo.url }}"
-            )
-        {% endif %}
-        {% endfor %}
-    {% endif %}
+    {% if sponsors.filter(F.tier == "silver") %}
+    div.heading
+        h3 Silver
 
-    {% if sponsors.corporate %}
     .item-list
-        {% for sponsor in sponsors.corporate %}
-        {% if sponsor.logo %}
-        .item.corporate
+        {% for sponsor in sponsors.filter(F.tier == "silver") %}
+        .item.silver
             a.bg-contain(
-                href="{{ sponsor.url }}",
-                target="_blank",
-                ff-bg="{{ sponsor.logo.url }}"
+                href="{{sponsor.website}}"
+                target="_blank"
+                ff-bg="{{sponsor.url_path }}/{{sponsor.logo}}"
             )
-        {% endif %}
-        {% endfor %}
-    {% endif %}
-
-    {% if sponsors.private %}
-    .item-list
-        {% for sponsor in sponsors.private %}
-        {% if sponsor.logo %}
-        .item.private
-            a.bg-contain(
-                href="{{ sponsor.url }}",
-                target="_blank",
-                ff-bg="{{ sponsor.logo.url }}"
-            )
-        {% endif %}
-        {% endfor %}
-    {% endif %}
-
-    {% if sponsors.inkind %}
-    .item-list
-        {% for sponsor in sponsors.inkind %}
-        {% if sponsor.logo %}
-        .item.inkind
-            a.bg-contain(
-                href="{{ sponsor.url }}",
-                target="_blank",
-                ff-bg="{{ sponsor.logo.url }}"
-            )
-        {% endif %}
         {% endfor %}
     {% endif %}

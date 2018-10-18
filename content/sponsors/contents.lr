@@ -1,8 +1,10 @@
-_template: page.jade
+_model: sponsors
+---
+_template: sponsors.jade
 ---
 title: Our Sponsors
 ---
-body:
+description:
 
 Our Sponsors
 -------------
