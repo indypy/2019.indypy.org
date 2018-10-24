@@ -1,18 +1,18 @@
 {% set sponsors = site.query('/sponsors').include_undiscoverable(True) %}
 
 .sponsor-logos
+    {% for sponsor in sponsors.filter(F.tier == "diamond") %}
     div.heading
         h3 Diamond
 
     .item-list
-        {% for sponsor in sponsors.filter(F.tier == "diamond") %}
         .item.diamond
             a.bg-contain(
                 href="{{sponsor.website}}"
                 target="_blank"
                 ff-bg="{{sponsor.url_path }}/{{sponsor.logo}}"
             )
-        {% endfor %}
+    {% endfor %}
 
     {% if sponsors.filter(F.tier == "platinum") %}
     div.heading
