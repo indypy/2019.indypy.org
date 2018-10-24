@@ -1,0 +1,23 @@
+_template: news-item.jade
+---
+title: The CFP is now closed
+---
+author: PyCascades Team
+---
+date: 2018-10-22
+---
+meta_description: The PyCascades 2019 CFP is closed
+---
+body:
+
+The PyCascades CFP has come to a close. We would like to thank everyone that
+helped us promote our CFP, all of our speaker mentors, and everyone that
+submitted a talk proposal. We were surprised and delighted to see 79
+submissions in the last 24 hours, and a grand total of 234 talk proposals!
+We had 34 more proposals than last year. Our goal is to review all the
+proposals and have speaker invitations sent by November 12th, 2018.
+
+We will be announcing ticket sales shortly, so stay tuned!
+
+We're excited to start reviewing the proposals and look forward to seeing you
+February 23rd and 24th in Seattle!
