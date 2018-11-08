@@ -3,8 +3,9 @@ body.news .posting {
     padding: 2ex 0;
 }
 body.news .posting h1,
-body.news .posting h2 {
-    margin-bottom: 0;
+body.news .posting h2,
+body.news .posting h3 {
+    margin-bottom: 1ex;
 }
 body.news .posting h1 a,
 body.news .posting h2 a {
