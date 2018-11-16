@@ -667,6 +667,10 @@ footer .links li a:hover {
         width: 300px;
         height: 120px;
     }
+
+    .conduct-violations {
+        float: right;
+    }
 }
 
 .subscribe-form {
@@ -697,9 +701,8 @@ body.error #main {
 }
 
 .conduct-violations {
-    float: right;
     border-radius: 10px;
-    margin: 0 4ex;
+    margin: 0 0 4ex 0;
     border: 1px solid #ddd;
 
 }
