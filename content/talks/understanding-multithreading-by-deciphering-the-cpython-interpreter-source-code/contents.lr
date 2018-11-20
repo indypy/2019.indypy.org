@@ -4,7 +4,9 @@ _template: talk.jade
 ---
 speaker: Chirag Shah
 ---
-bio: - I have been into CS field for over 6 years now. I have completed my BTech in Information Technology from Veermata Jijabai Technological Institute, Mumbai (VJTI). Also, I have done my diploma in  Information Technology.
+bio: 
+
+- I have been into CS field for over 6 years now. I have completed my BTech in Information Technology from Veermata Jijabai Technological Institute, Mumbai (VJTI). Also, I have done my diploma in  Information Technology.
 - Software development is my long suit. AI, ML and Data Science are my goto subjects. Competitive programming is something I love to do in my spare time.
 - I like tinkering with new technologies, creating new projects and implementing things by myself. I have been contributing on github since a while.
 - I am an avid learner and I can quickly adopt to new frameworks. Also, I am a mediocre public speaker with modest interest in Fintech and Investment Banking.
@@ -28,4 +30,6 @@ title: Understanding multithreading by deciphering the cpython interpreter sourc
 ---
 audience_level: Beginner
 ---
-abstract: In this talk, I will provide a concise understanding of Threading and Global Interpreter Lock(GIL) in Python.
+abstract:
+
+In this talk, I will provide a concise understanding of Threading and Global Interpreter Lock(GIL) in Python.

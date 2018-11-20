@@ -17,7 +17,7 @@ block main
         h1 {{ this.title }}
         .byline {{ this.speaker }}
         .abstract
-            p {{ this.abstract }}
+            p {{ this.abstract.html }}
 
         {% if this.slides %}
         .slides
@@ -45,7 +45,7 @@ block main
 
         h2 About {{ this.speaker }}
         .biography
-            {{ this.bio }}
+            {{ this.bio.html }}
         .contact
             {% if this.website %}
             .url

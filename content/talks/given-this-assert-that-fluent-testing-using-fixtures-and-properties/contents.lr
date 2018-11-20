@@ -14,7 +14,9 @@ title: Given this, assert that: fluent testing using fixtures and properties
 ---
 audience_level: All
 ---
-abstract: Let's face it, most of us don't write enough tests. Even if we do, 
+abstract: 
+
+Let's face it, most of us don't write enough tests. Even if we do, 
 our tests require a lot of boilerplate and don't test everything we'd want.
 
 In this talk we'll learn how to make smaller, more self-descriptive tests by using pytest fixtures and property-based tests using Hypothesis.
