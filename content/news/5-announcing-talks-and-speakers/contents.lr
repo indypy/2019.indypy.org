@@ -1,0 +1,50 @@
+_template: news-item.jade
+---
+title: PyCascades 2019 Speaker Lineup🎙
+---
+author: PyCascades Team
+---
+date: 2018-11-19
+---
+meta_description: Our speaker and talks selection can now be viewed on the website.
+---
+body:
+
+We are very excited to share with all of you the incredible speakers for PyCascades 2019. We received over 230 talk proposals, which we had to narrow down to just 20. As you can imagine, not an easy task for our program committee. But their dedication produced what we think will be an outstanding program.
+
+Take a `look for yourself </talks/>`_, and be inspired to join us in February:
+
+* "A Taxonomy of Decorators A-E" by Andy Fundinger
+* "Abstraction for students of all the things" by Chris Waigl
+* "Account Security for the Fashionable App Developer" by Philip James
+* "Building a Gendered Dictionary" by Omayeli Arenyeka
+* "Data Protection for Developers: Past, Present, and Future" by Dustin Ingram
+* "Given this, assert that: fluent testing fixtures and properties" by Paul Watts
+* "Guide to your own artificial intelligence application in 3 easy steps" by Norah Klintberg Sakal
+* "Hunting the bugs" by Maria McKinley
+* "Light Up Your Life - With Python and LEDs!" by Nina Zakharenko
+* "Lint your code responsibly" by Ania Kapuścińska
+* "Meaningful Mentoring Moments" by Trey Hunner
+* "Nim for Python Programmers" by Abhishek Kapatkar
+* "Perceiving Python Programming Paradigms" by Jigyasa Grover
+* "Recursion, Fractals, and the Python Turtle Module" by Hayley Denbraver
+* "So tell me, what is your musical taste?" by Kyungyun Lee
+* "The Amazing Mutable, Immutable Tuple and Other Philosophic Digressions" by Al Sweigart
+* "Turning ‘wat’ into ‘why’" by Katie McLaughlin
+* "Type Hints: Adding Types to Legacy Codebases" by Iyanuoluwa Ajao
+* "Understanding multithreading by deciphering the CPython interpreter source code" by Chirag Shah
+* "Who to blame for all your problems" by Ben Berry
+
+Tickets are on sale now!
+-------------------------
+
+There are plenty of tickets still available, but it is looking like we will sell out again this year. So don’t wait too long. When the tickets are gone, they are gone 😱.
+
+Get yours now at https://ti.to/pycascades/pycascades-2019.
+
+Gratitude
+----------
+
+We’d like to extend a big "Thank You" to everyone who submitted a proposal. Your time and effort make it possible for us to put together a conference that people don’t want to miss.
+
+And we’d like to extend our gratitude to our hardworking program chair Georgia Reh and all the reviewers who made this announcement possible in the first place.

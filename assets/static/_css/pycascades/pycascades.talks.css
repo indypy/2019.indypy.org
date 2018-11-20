@@ -3,15 +3,18 @@ body.talks.talk-list .item-list {
 }
 body.talks.talk-list .item {
     display: inline-block;
-    width: 280px;
-    margin: 40px 20px;
+    width: 275px;
+    margin: 20px;
     vertical-align: top;
+}
+body.talks.talk-list .item a {
+   text-decoration: none; 
 }
 body.talks.talk-list .headshot {
     display: block;
     margin: 0 auto;
-    width: 275px;
-    height: 275px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     border-radius: 50%;
     opacity: 0;
@@ -26,12 +29,13 @@ body.talks.talk-list h3 {
     text-transform: none;
     letter-spacing: 0;
 }
+body.talks.talk-list h2 a,
 body.talks.talk-list h3 a {
     color: inherit;
     text-decoration: none;
 }
 body.talks.talk-list .byline {
-    font-size: 12px;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
 body.talks.talk-list .abstract {
@@ -45,7 +49,7 @@ body.talks.talk-detail h1 {
 }
 body.talks.talk-detail .byline {
     margin-bottom: 3ex;
-    font-size: 12px;
+    font-size: 2.5rem;
     text-transform: uppercase;
 }
 body.talks.talk-detail .abstract {

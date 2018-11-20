@@ -4,4 +4,3 @@ included_assets = _redirects
 
 [packages]
 lektor-rst = 0.1
-
