@@ -8,3 +8,9 @@ pyjade = "*"
 webassets = "*"
 cssmin = "*"
 pip = "*"
+jsmin = "*"
+"jinja2" = "*"
+idna = "*"
+
+[requires]
+python_version = "3.6"

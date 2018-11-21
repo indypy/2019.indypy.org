@@ -1,6 +1,0 @@
-Jinja2==2.10
-jsmin==2.2.2
-Lektor==3.1.1
-cssmin==0.2.0
-webassets==0.12.1
-pyjade==4.0.0
