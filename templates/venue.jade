@@ -23,6 +23,8 @@ block main
 
                             .image-credit
                                 {{ this.credit.html }}
+        a.down(ng-click="scrollTo('accommodations')")
+            {% include "includes/chevron-down.svg" %}
 
     section#location
         .main.vcontainer#map
@@ -39,6 +41,8 @@ block main
                             h2 Accommodation
                         .one-half.column
                             |There are several options for accommodation within walking distance of our venue, Kane Hall. Since we are meeting over a weekend on February 23rd and 24th, you may book farther away from the venue without worrying about entanglement in Seattle’s punishing weekday traffic. Downtown Seattle hotels will be near public transit options, such as #[a(href="https://kingcounty.gov/depts/transportation/metro.aspx") King County] buses and #[a(href="https://www.soundtransit.org/Schedules/Link-light-rail") Link Light Rail], that can transport you to within a few minutes walking distance of Kane Hall. For four star and above accommodations, Bellevue will often be priced lower than Seattle hotels.
+        a.down(ng-click="scrollTo('hotels')")
+            {% include "includes/chevron-down.svg" %}
 
     section#hotels
         .background(du-parallax, y="animator")
