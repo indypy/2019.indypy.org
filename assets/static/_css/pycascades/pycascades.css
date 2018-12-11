@@ -599,11 +599,9 @@ footer .links li a:hover {
     text-align: center;
 }
 
-#sponsors.container {
-    margin-top: 40px;
+#sponsors {
+    margin-top: 0px;
     margin-bottom: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 #sponsors .main {
@@ -615,29 +613,57 @@ footer .links li a:hover {
 }
 #sponsors .sponsor-logos .heading {
     text-align: center;
-    margin-top: 25px;
+
+    max-width: 960px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 20px;
+
+    width: 80%;
+    border-top: 2px solid #636363;
+    border-bottom: 2px solid #636363;
 }
+
 #sponsors .sponsor-logos .item {
     display: inline-block;
-    width: 150px;
-    height: 70px;
+    vertical-align: text-top;
+    width: 300px;
     margin: 10px 20px;
 }
-#sponsors .sponsor-logos .item.diamond {
-    display: block;
-    width: 335px;
-    height: 100px;
-    margin: 0 auto;
+
+#sponsors .sponsor-logos .item > .logo {
+    margin-left: auto;
+    margin-right: auto;
 }
-#sponsors .sponsor-logos .item.platinum {
+#sponsors .sponsor-logos .item p {
+    font-size: 1.3ex;
+}
+
+#sponsors .sponsor-logos .item.diamond .logo,
+#sponsors .sponsor-logos .item.diamond_npo .logo {
+    height: 250px;
+}
+
+#sponsors .sponsor-logos .item.platinum .logo,
+#sponsors .sponsor-logos .item.platinum_npo .logo {
     width: 250px;
-    height: 66px;
+    height: 200px;
 }
-#sponsors .sponsor-logos .item.gold,
-#sponsors .sponsor-logos .item.silver{
+#sponsors .sponsor-logos .item.gold .logo,
+#sponsors .sponsor-logos .item.gold_npo .logo {
     width: 200px;
-    height: 50px;
+    height: 150px;
 }
+
+#sponsors .sponsor-logos .item.silver .logo,
+#sponsors .sponsor-logos .item.silver_npo .logo{
+    width: 150px;
+    height: 90px;
+}
+
 #sponsors .sponsor-logos .item a {
     display: block;
     width: 100%;
@@ -651,21 +677,57 @@ footer .links li a:hover {
         margin: 0 auto;
     }
 }
+
 @media (min-width: 750px) {
     #sponsors .sponsor-logos .item {
-        width: 200px;
-        height: 100px;
-        margin: 0 40px;
+        width: 480px;
+        margin: 0 20px;
+    }
+
+    #sponsors .sponsor-logos .item > .logo {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+    }
+    #sponsors .sponsor-logos .item > p {
+        margin: auto;
+        width: 80%;
     }
     #sponsors .sponsor-logos .item.diamond {
-        width: 640px;
-        height: 200px;
+        width: 480px;
     }
-    #sponsors .sponsor-logos .item.item.platinum,
-    #sponsors .sponsor-logos .item.item.gold,
-    #sponsors .sponsor-logos .item.silver {
-        width: 300px;
-        height: 120px;
+    #sponsors .sponsor-logos .item.diamond .logo {
+        width: 480px;
+        height: 500px;
+    }
+    #sponsors .sponsor-logos .item.diamond_npo {
+        width: 480px;
+    }
+    #sponsors .sponsor-logos .item.diamond_npo .logo {
+        width: 480px;
+        height: 375px;
+    }
+
+    #sponsors .sponsor-logos .item.platinum .logo {
+        width: 480px;
+        height: 250px;
+    }
+    #sponsors .sponsor-logos .item.platinum_npo .logo {
+        width: 375px;
+        height: 100px;
+        margin: auto;
+    }
+
+    #sponsors .sponsor-logos .item.gold .logo,
+    #sponsors .sponsor-logos .item.gold_npo .logo {
+        width: 280px;
+        height: 60px;
+    }
+
+    #sponsors .sponsor-logos .item.silver .logo,
+    #sponsors .sponsor-logos .item.silver_npo .logo {
+        width: 200px;
+        height: 40px;
     }
 
     .conduct-violations {
