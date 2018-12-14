@@ -1,14 +1,13 @@
 .PHONY: virtualenv
 virtualenv:
-	rm -rf env
-	python3 -m venv env
-	env/bin/pip install -r requirements.txt
+	pipenv --rm
+	pipenv install
 
 .PHONY: build
 build: virtualenv
-	env/bin/lektor clean --yes
-	env/bin/lektor build
+	pipenv run lektor clean --yes
+	pipenv run lektor build
 
 .PHONY: serve
 serve: virtualenv
-	env/bin/lektor serve
+	pipenv run lektor serve
