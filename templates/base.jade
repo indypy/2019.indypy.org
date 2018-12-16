@@ -56,9 +56,6 @@ html
 
             #main
                 block main
-
-                block logos
-                    {% include "includes/sponsor_logos.jade" %}
             
             #banner
                 a(href="https://ti.to/pycascades/pycascades-2019")
@@ -78,6 +75,9 @@ html
                         li.instagram
                             a(href="{{ bag('pycascades.INSTAGRAM_URL') }}", target="_blank")
                                 |#[i.fa.fa-instagram] PyCascades
+
+                    block logos
+                        {% include "includes/sponsor_logos_smol.jade" %}
 
             a#menu-trigger.bg-contain(
                 ff-bg="/static/images/menu.svg",
