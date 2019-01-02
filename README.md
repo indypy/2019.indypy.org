@@ -44,7 +44,7 @@ $ pipenv shell
 Now you're ready to get things installed:
 
 ```
-$ pipenv install -r requirements.txt
+$ pipenv install --dev
 ```
 
 And with Lektor finally installed, you can run the built-in development server:
