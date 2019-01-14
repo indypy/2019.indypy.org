@@ -27,6 +27,7 @@ block main
 
         {% for day in schedule_days %}
         h3 {{ day.title }} &mdash; {{ day.date|dateformat("EEEE, dd MMMM yyyy") }}
+
         table.schedule-table
             {% for timeslot in day.program %}
             tr
@@ -36,11 +37,9 @@ block main
                     #[span.end {{ timeslot.end }}]
                 td.description
                     {% set talk=site.query("/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
-                    {% if talk %}
-                    a(href="{{ talk|url }}").
-                        #[span.title {{ talk.title }}]
-                        <br/>
-                        #[span.speaker {{ talk.speaker }}]
+                    {% if timeslot.link %}
+                    a(href="{{ timeslot.link|url }}").
+                        #[span.label {{ timeslot.description }}]
                     {% else %}
                     #[span.label {{ timeslot.description }}]
                     {% endif %}
