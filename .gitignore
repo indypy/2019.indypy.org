@@ -10,5 +10,6 @@ assets/static/css/
 assets/static/js/
 
 env
+.venv
 .idea/
 .python-version
