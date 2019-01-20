@@ -52,23 +52,31 @@ block main
                     .row
                         h2 Follow The Conversation
                         p.
-                            Join our newsletter to hear the latest news as
-                            soon as we announce them.
-                        p.
-                            We promise, we won't overload your inbox.
+                            Join us on Meetup to keep up-to-date on the latest news.
 
-                        {% include "includes/subscribe.jade" %}
+                        p
+                            a.button.join(
+                                href="https://www.meetup.com/indypy/",
+                                target="_blank"
+                            ) Join IndyPy
 
                     .row
-                        .one-half.column.social
-                            a(
+                        .one-third.column.social
+                            a.indypy-icon(
                                 href="{{ bag('pycascades.TWITTER_URL') }}",
                                 target="_blank"
                             ).
                                 #[i.fa.fa-2x.fa-twitter]
-                            | You can also follow us. 
+                            | You can also follow us.
 
-                        .one-half.column.social
+                        .one-third.column.social
+                            a(
+                                href="{{ bag('pycascades.YOUTUBE_URL') }}",
+                                target="_blank"
+                            ).
+                                #[i.fa.fa-2x.fa-youtube]
+
+                        .one-third.column.social
                             a(
                                 href="{{ bag('pycascades.SLACK_URL') }}",
                                 target="_blank"
