@@ -1,4 +1,4 @@
-_template: conduct.jade
+_template: page.jade
 
 ---
 
@@ -8,87 +8,74 @@ title: Code of Conduct
 
 body:
 
-Code of Conduct
------------------
+**If you are being harassed, notice that someone else is being harassed, or have any other concerns, please
+contact the IndyPy Organizers by e-mailing ​[info@indypy.com](mailto:info@indypy.com).**
 
-PyCascades is a regional conference made up of a mixture of professionals and
-volunteers from all over the world, working on every aspect of the mission -
-including mentorship, teaching and connecting people.
+IndyPy is a community intended for networking and collaboration in the python community.
 
-Diversity is one of our huge strengths, but it can also lead to communication issues. To support a welcoming environment for all, regardless of individual differences, we have a few ground rules that we ask people to adhere to when they participate in this community activities. These rules apply equally to founders, organizers, moderators, sponsors, and affiliates -- in short, to all participants.
+We value the participation of each member of the Python community and want all attendees to have an
+enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy
+to other attendees at the monthly meetups, conferences, and online spaces (such as Slack), whether officially
+sponsored by IndyPy or not.
 
-This isn't an exhaustive list of things that you must do, or can't do. Rather, take it in the spirit in which it's intended. It's a guide to make it easier to enrich all of us and the technical communities in which we participate, and which we represent.
+To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any
+IndyPy event are required to conform to the following Code of Conduct. Organizers will enforce this code throughout
+the event.
 
+##THE SHORT VERSION
 
-The principles
-----------------
+IndyPy is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity,
+sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of
+participants in any form.
 
-* **Be friendly and welcoming.** We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
+All communication should be appropriate for a professional audience including people of many different backgrounds.
+Sexual language and imagery is not appropriate for any venue, including talks.
 
-* **Be respectful.** Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack. It’s important to remember that a community where people feel uncomfortable or threatened is not a productive one. Members of the Python community should be respectful when dealing with other members as well as with people outside the community.
+Be kind to others. Do not insult or put down other attendees. Behave professionally. Remember that harassment and
+sexist, racist, or exclusionary jokes are not appropriate for IndyPy. Attendees violating these rules may be asked
+to leave without a refund at the sole discretion of the organizers.
 
-* **Be careful in the words that you choose.** We are a community of professionals, and we conduct ourselves professionally. Be kind to others. Do not insult or put down other participants, individually or as a group. Harassment and other exclusionary behavior aren't acceptable. This includes, but is not limited to:
+Thank you for helping make this a welcoming, friendly event for all.
 
-  * Violent threats or language directed against another person.
-  * Discriminatory jokes and language.
-  * Posting sexually explicit or violent material.
-  * Posting (or threatening to post) other people's personally identifying information ("doxing").
-  * Personal insults, especially those using racist or sexist terms.
-  * Unwelcome sexual attention.
-  * Deliberate intimidation, stalking, or following.
-  * Harassing photography or recording, or photographing or recording people who have explicitly declined to be recorded.
-  * Inappropriate physical contact.
-  * Advocating for, or encouraging, any of the above behavior.
-  * Repeated harassment of others. In general, if someone asks you to stop, then stop.
+##THE LONGER VERSION
 
+Harassment includes offensive verbal comments related to gender, gender identity, sexual orientation, disability,
+physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking,
+following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical
+contact, and unwelcome sexual attention.
 
-Where does the code of conduct apply
--------------------------------------
+Participants asked to stop any harassing behavior are expected to comply immediately.
 
-This code of conduct applies to all spaces managed by PyCascades. This includes:
+Be careful in the words that you choose. Remember that sexist, racist, and other exclusionary jokes can be offensive
+to those around you. Excessive swearing and offensive jokes are not appropriate for IndyPy.
 
-* Conferences (including social events and peripheral activities)
-* Unconferences and sprints
-* Meetups
-* Workshops
-* Presentation materials used in talks or sessions
-* Slack
-* Mailing lists
-* GitHub
-* Twitter hashtag
-* meetup.com discussion boards
-* Any other forums created by the which the community uses for communication.
+If a participant engages in behavior that violates this code of conduct, the IndyPy organizers may take any action
+they deem appropriate, including warning the offender or expulsion from the event.
 
-In addition, violations of this code outside these spaces may affect a person's ability to participate within them.
+#A member of the Python community is:
 
+##Open
+Members of the community are open to collaboration, whether it's on PEPs, patches, problems, or otherwise. We're
+receptive to constructive comment and criticism, as the experiences and skill sets of other members contribute to
+the whole of our efforts. We're accepting of all who wish to take part in our activities, fostering an environment
+where anyone can participate and everyone can make a difference.
 
-Speakers, presenters, and open space organizers
-------------------------------------------------
+##Considerate
+Members of the community are considerate of their peers -- other Python users. We're thoughtful when addressing the
+efforts of others, keeping in mind that often times the labor was completed simply for the good of the community.
+We're attentive in our communications, whether in person or online, and we're tactful when approaching differing views.
 
-Speakers, presenters, and those organizing open spaces or similar events are expected to uphold the community guidelines. Please let a member of staff know immediately if there are any issues during one of these events. Presentations, open spaces, and similar events will generally not be stopped for one-time gaffes or minor problems, although a staff member will speak to the presenter afterward and we will include any incidents in our transparency report. However, staff will take immediate action to politely and calmly stop any presentation or event that repeatedly or seriously violates our code of conduct policy.
+##Respectful
+Members of the community are respectful. We're respectful of others, their positions, their skills, their commitments,
+and their efforts. We're respectful of the volunteer efforts that permeate the Python community. We're respectful of
+the processes set forth in the community, and we work within them. When we disagree, we are courteous in raising
+our issues.
 
+Overall, we're good to each other. We contribute to this community not because we have to, but because we want to.
+If we remember that, these guidelines will come naturally.
 
-Sponsors, affiliates, and exhibitors
--------------------------------------
+Questions/comments/reports Please write to ​[info@indypy.com](mailto:info@indypy.com)
 
-When you sponsor a PyCascades event, we welcome you as a member of our community, and we expect you to be respectful to the community you operate within.
-
-All exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the code of conduct. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) must not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
-
-In addition, sponsors and affiliates of conference, meetups, and online activities should not employ aggressive recruiting techniques, invasive marketing behavior, or similar actions towards community members. In case of violations, sponsors might be sanctioned and expelled from the event or activity with no return of the sponsorship contribution.
-
-
-What to do in case of violations
----------------------------------
-
-If you believe that someone is violating the code of conduct during one of our events, please contact a member of the event staff immediately. Event staff can be identified by t-shirts/special badges.
-
-If you believe someone is violating the code of conduct in one of our online platforms, we ask that you report it by emailing **conduct@pycascades.org**. To help us respond in the best way to the situation, please follow the `Code of Conduct Reporting </code-of-conduct-reporting>`_. The code of conduct representatives employ the `Code of Conduct Response </code-of-conduct-response>`_ to handle reports.
-
-All reports will be kept confidential. In some cases a public statement might be required (for example in a CoC transparency report following conferences), but these reports are anonymized and do not include any personally identifying information.
-
-
-Thanks
--------
-
-This code of conduct is largely based on the `Write The Docs Code of Conduct <http://www.writethedocs.org/code-of-conduct/>`_, which in turn is based on the `Django Project Code of Conduct <https://www.djangoproject.com/conduct/>`_ and the original text of the Speak Up! project, inspired in its turn by the Fedora Project, as well as the Python Mentorship Project and many others.
+This page inspired by:
+- DjangoCon Code of Conduct
+- Python Software Foundation Code of Conduct
