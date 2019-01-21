@@ -569,10 +569,7 @@ footer .links li a:hover {
     left: -100px;
     width: 200px;
     height: 200px;
-    background: #F21803;
-    background: -moz-linear-gradient(top, #F21803 50%, #6B0018 100%);
-    background: -webkit-linear-gradient(top, #F21803 50%,#6B0018 100%);
-    background: linear-gradient(to bottom, #F21803 50%,#6B0018 100%);
+    background: #0E0E9A;
     color: #FFF;
     -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
