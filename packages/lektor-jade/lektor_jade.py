@@ -64,7 +64,7 @@ def get_bundle_for(ext, filters=None):
     return Bundle(
         *files,
         filters=filters,
-        output=f'css/pycascades.{ext}'
+        output=f'css/indypy.{ext}'
     )
 
 
@@ -108,9 +108,9 @@ class JadeTemplatePlugin(Plugin):
             "_js/headroom/headroom.js",
             "_js/misc/instafeed.js",
             "_js/misc/ff.imghelpers.js",
-            "_js/pycascades/pycascades.js",
+            "_js/indypy/indypy.js",
             filters='jsmin',
-            output="js/pycascades.js",
+            output="js/indypy.js",
         ))
 
     def on_before_build_all(self, builder, **extra):

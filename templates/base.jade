@@ -3,7 +3,7 @@ doctype html
 html
 
     head
-        title {% block page_title %}PyCascades 2019 &ndash; Seattle, WA{% endblock %}
+        title {% block page_title %}IndyPy Automate Conf ’19 &ndash; Fishers, IN{% endblock %}
         meta(charset="UTF-8")
         meta(http-equiv="content-Language", content="en_US")
         meta(name="google", content="notranslate") {# TEMP #}
@@ -13,16 +13,16 @@ html
         )
         meta(
             name="description",
-            content="Website for PyCascades 2019, a regional Python conference in the Pacific Northwest. This time in Seattle, Washington, USA."
+            content="Website for IndyPy Automate Conf ’19, a regional Python conference for automation in Fishers, IN USA."
         )
         meta(
             name="keywords",
-            content="Python,PyCon,Conference,Seattle,PNW"
+            content="Python,PyCon,Conference,Indianapolis,Fishers,Automation"
         )
-        meta(property="og:url", content="http://www.pycascades.com")
+        meta(property="og:url", content="http://2019.indypy.org/automate")
         meta(
             property="og:description",
-            content="Website for PyCascades 2019, a regional Python conference in the Pacific Northwest, this time in Seattle, Washington, USA."
+            content="Website for IndyPy Automate Conf ’19, a regional Python conference for automation in Fishers, IN USA."
         )
         link(
             rel="stylesheet",
@@ -51,7 +51,7 @@ html
                         a.bg-contain.bg-ir(
                             href="/automate",
                             ff-bg="/static/images/header-logo.png"
-                        ) PyCascades 2019
+                        ) IndyPy Automate Conf ’19
                 {% include "includes/nav.jade" %}
 
             #main
@@ -67,13 +67,13 @@ html
                         li
                             a(href="{{ '/code-of-conduct'|url }}") Code of Conduct
                         li.slack
-                            a(href="{{ bag('pycascades.SLACK_URL') }}", target="_blank")
+                            a(href="{{ bag('settings.SLACK_URL') }}", target="_blank")
                                 |#[i.fa.fa-slack] IndyPy
                         li.twitter
-                            a(href="{{ bag('pycascades.TWITTER_URL') }}", target="_blank")
+                            a(href="{{ bag('settings.TWITTER_URL') }}", target="_blank")
                                 |#[i.fa.fa-twitter] IndyPy
                         li.youtube
-                            a(href="{{ bag('pycascades.YOUTUBE_URL') }}", target="_blank")
+                            a(href="{{ bag('settings.YOUTUBE_URL') }}", target="_blank")
                                 |#[i.fa.fa-youtube] IndyPy
 
                     block logos
@@ -96,5 +96,5 @@ html
         block bottom
             script.
                 var data = {};
-                pycascades.start(data);
+                indypy.start(data);
 

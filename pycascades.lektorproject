@@ -1,6 +1,5 @@
 [project]
-name = PyCascades 2019
-included_assets = _redirects
+name = IndyPy 2019
 
 [packages]
 lektor-rst = 0.1
