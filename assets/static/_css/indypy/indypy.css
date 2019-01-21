@@ -672,13 +672,13 @@ footer .links li a:hover {
     height: 250px;
 }
 
-#sponsors .sponsor-logos .item.platinum .logo,
-#sponsors .sponsor-logos .item.platinum_npo .logo {
+#sponsors .sponsor-logos .item.title .logo,
+#sponsors .sponsor-logos .item.title_npo .logo {
     width: 250px;
     height: 200px;
 }
-#sponsors .sponsor-logos .item.gold .logo,
-#sponsors .sponsor-logos .item.gold_npo .logo {
+#sponsors .sponsor-logos .item.organizer .logo,
+#sponsors .sponsor-logos .item.organizer_npo .logo {
     width: 200px;
     height: 150px;
 }
@@ -694,14 +694,14 @@ footer .links li a:hover {
     width: 100%;
     height: 100%;
 }
-@media (min-width: 500px) {
-    #sponsors .sponsor-logos .item.title {
-        display: block;
-        width: 480px;
-        height: 160px;
-        margin: 0 auto;
-    }
-}
+/*@media (min-width: 500px) {*/
+    /*#sponsors .sponsor-logos .item.title {*/
+        /*display: block;*/
+        /*width: 480px;*/
+        /*height: 160px;*/
+        /*margin: 0 auto;*/
+    /*}*/
+/*}*/
 
 @media (min-width: 750px) {
     #sponsors .sponsor-logos .item {
@@ -733,20 +733,20 @@ footer .links li a:hover {
         height: 375px;
     }
 
-    #sponsors .sponsor-logos .item.platinum .logo {
+    #sponsors .sponsor-logos .item.title .logo {
         width: 480px;
         height: 250px;
     }
-    #sponsors .sponsor-logos .item.platinum_npo .logo {
+    #sponsors .sponsor-logos .item.title_npo .logo {
         width: 375px;
         height: 100px;
         margin: auto;
     }
 
-    #sponsors .sponsor-logos .item.gold .logo,
-    #sponsors .sponsor-logos .item.gold_npo .logo {
+    #sponsors .sponsor-logos .item.organizer .logo,
+    #sponsors .sponsor-logos .item.organizer_npo .logo {
         width: 280px;
-        height: 60px;
+        height: 80px;
     }
 
     #sponsors .sponsor-logos .item.silver .logo,

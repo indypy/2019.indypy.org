@@ -2,7 +2,7 @@
 
 #sponsors
     .sponsor-logos
-        {% for tier in ["diamond", "platinum", "gold", "silver"] %}
+        {% for tier in ["diamond", "title", "organizer", "silver"] %}
         {% set tier_sponsors = sponsors.filter(F.tier == tier).filter(F.is_npo == false) %}
         {% if tier_sponsors %}
         div.heading
@@ -15,14 +15,14 @@
                     a.bg-contain(
                         href="{{sponsor.website}}"
                         target="_blank"
-                        ff-bg="{{sponsor.url_path }}/{{sponsor.logo}}"
+                        ff-bg="{{sponsor.url_path }}{{sponsor.logo}}"
                     )
                 {{ sponsor.description.html }}
             {% endfor %}
         {% endif %}
         {% endfor %}
 
-        {% for tier in ["diamond", "platinum", "gold", "silver"] %}
+        {% for tier in ["diamond", "title", "organizer", "silver"] %}
 
         {% set tier_sponsors = sponsors.filter(F.tier == tier).filter(F.is_npo == true) %}
 
@@ -37,7 +37,7 @@
                 a.bg-contain(
                 href="{{sponsor.website}}"
                 target="_blank"
-                ff-bg="{{sponsor.url_path }}/{{sponsor.logo}}"
+                ff-bg="{{sponsor.url_path }}{{sponsor.logo}}"
                 )
             p {{ sponsor.description.html }}
         {% endfor %}
