@@ -2,7 +2,7 @@ _template: venue.jade
 ---
 title: Our Venue
 ---
-background: /static/backgrounds/uwashington-campus.jpg
+background: /static/backgrounds/venue.jpg
 ---
 body:
 
