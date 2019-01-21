@@ -1,12 +1,16 @@
 _template: about.jade
 ---
-title: What is PyCascades?
+title: 2019 - Fishers
 ---
-background: /static/backgrounds/2018-conference-group-photo.jpg
+background: /static/backgrounds/conference-room-2.jpg
 ---
 body:
 
-PyCascades is a two-day Python conference that will be held February 23rd and
-24th, 2019 in the scenic coastal city of Seattle, Washington (USA).
+IndyPy Conf kicks off the 2019 conference series with a full day of talks on Automation, Orchestration
+and IoT using Python.
 
-Organized by members of the Python communities in Vancouver, Seattle, and Portland, we aim to bring together Python users and developers from both the Pacific Northwest and around the world.
+Organized by Six Feet Up, the Indianapolis Python Meetup (“IndyPy”) is a leading national group promoting the
+Python programming language and connecting the Python community. IndyPy draws Python enthusiasts from the entire
+Midwest for regular events. In 2018, the group celebrated 11 years of success with over 1,500 members.
+
+###March 22nd, 2019<br>Fishers, IN USA
