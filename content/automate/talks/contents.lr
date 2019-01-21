@@ -1,5 +1,13 @@
-_model: talks
+_model: page
 ---
-_template: talks.jade
+_template: page.jade
 ---
-title: Our Speakers
+title: Speakers
+---
+body:
+
+##Speakers
+
+Our speakers have not been determined yet. We are seeking 8 speakers for 45 minute talks and 5 lightning talks
+during lunch. Submit your papers here: <a href="https://www.papercall.io/indypy-conf" target="_blank">
+https://www.papercall.io/indypy-conf</a>
