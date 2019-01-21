@@ -29,43 +29,6 @@ block main
     section#location
         .main.vcontainer#map
 
-    section#accommodations
-        .background(du-parallax, y="animator")
-            .image.bg-cover(ff-bg="/static/images/hotel_bed.jpg")
-        .overlay
-        .main.vcontainer
-            .inner
-                .container
-                    .row.fade-up(in-view)
-                        .one-half.column
-                            h2 Accommodation
-                        .one-half.column
-                            |There are several options for accommodation within walking distance of our venue, Kane Hall. Since we are meeting over a weekend on February 23rd and 24th, you may book farther away from the venue without worrying about entanglement in Seattle’s punishing weekday traffic. Downtown Seattle hotels will be near public transit options, such as #[a(href="https://kingcounty.gov/depts/transportation/metro.aspx") King County] buses and #[a(href="https://www.soundtransit.org/Schedules/Link-light-rail") Link Light Rail], that can transport you to within a few minutes walking distance of Kane Hall. For four star and above accommodations, Bellevue will often be priced lower than Seattle hotels.
-        a.down(ng-click="scrollTo('hotels')")
-            {% include "includes/chevron-down.svg" %}
-
-    section#hotels
-        .background(du-parallax, y="animator")
-            .image.bg-cover(ff-bg="/static/images/bedroom_door.jpg")
-        .overlay
-        .main.vcontainer
-            .inner
-                .container
-                    .row.fade-up(in-view)
-                        .one-third.column
-                            h3 Graduate Seattle Hotel
-                            p This Seattle hotel is pet-friendly and located a 10 minute walk from the Conference venue. Housed in a historic 1930s art deco tower, rooms feature unobstructed views of Seattle. The hotel is one of two towers in the U-district.
-                            a(href="https://www.graduatehotels.com/seattle/") Find out more &hellip;
-                        .one-third.column
-                            h3  Residence Inns by Marriott
-                            p This Marriott hotel is located minutes from the University of Washington. The website description promises accommodations with plush beds and pullout sofas. Also available are studio and one-bedroom suites with kitchens that feature full-size appliances and complimentary high-speed Wi-Fi.
-                            a(href="https://www.marriott.com/hotels/travel/seaud-residence-inn-seattle-university-district/") Find out more &hellip;
-                        .one-third.column
-                            h3 Watertown Hotel
-                            p This hotel is located just west of the Conference venue. Waterton is another pet-friendly hotel. It has a variety of rooms and suites available and offers rooms that are optimized for accessibility.
-
-                            a(href="https://www.staypineapple.com/watertown-hotel-seattle-wa") Find out more &hellip;
-
 append bottom
     link(
         rel="stylesheet",
@@ -81,12 +44,12 @@ append bottom
     )
 
     script.
-        var kaneHallCoordinates = [47.6562467,-122.3093368];
+        var venueCoordinates = [39.9660977,-86.0107927];
         var map = L.map(
             'map', {
                 scrollWheelZoom: false,
             }
-        ).setView(kaneHallCoordinates, 16);
+        ).setView(venueCoordinates, 16);
         mapLink =
             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 
@@ -98,10 +61,10 @@ append bottom
             ext: 'png'
         }).addTo(map);
 
-        var kaneHall = L.marker(kaneHallCoordinates).bindPopup(
-            '<h3>Kane Hall</h3>University of Washington<br>' +
-            '4069 Spokane Lane<br>' +
-            'Seattle, WA 98103<br><br>' +
-            '<a style="color: black" href="https://goo.gl/maps/hfaPk9bsTZJ2">View on Google Maps</a>'
+        var venue = L.marker(venueCoordinates).bindPopup(
+            '<h3>Launch Fishers</h3>' +
+            '12175 Visionary Way<br>' +
+            'Fishers, IN 46038<br><br>' +
+            '<a style="color: black" href="https://goo.gl/maps/y6yZ4FCHJC32">View on Google Maps</a>'
         ).addTo(map);
-        kaneHall.openPopup();
+        venue.openPopup();
