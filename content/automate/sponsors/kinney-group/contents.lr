@@ -4,6 +4,8 @@ name: Kinney Group
 ---
 tier: title
 ---
+is_npo: false
+---
 website: https://kinneygroup.com
 ---
 description:
@@ -11,5 +13,7 @@ description:
 If your organization is building, deploying, and sustaining custom applications to support your business or mission, Kinney Group believes automation should be adopted as a key strategy within your data center. Their technical proficiency and years of experience designing and building IT infrastructures, with a focus on security and analytics-driven insights, make Kinney Group the perfect partner to guide you through the entire adoption process from start to finish.
 ---
 logo: kinney-group-logo.png
+---
+logo_dark_bg: kinney-group-logo-rv.png
 ---
 signed_on: 2019-01-18
