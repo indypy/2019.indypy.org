@@ -6,10 +6,16 @@ body.about.organizers .item-list {
 }
 body.about.organizers .item {
     display: inline-block;
-    width: 275px;
+    width: 400px;
     margin: 20px;
     vertical-align: top;
     margin-bottom: 50px;
+}
+@media screen and (max-width: 499px) {
+    body.about.organizers .item {
+        width: 275px;
+        margin: 20px 0 50px;
+    }
 }
 body.about.organizers .headshot {
     display: block;
