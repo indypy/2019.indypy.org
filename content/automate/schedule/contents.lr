@@ -1,6 +1,6 @@
-_model: page
+_model: schedule_day
 ---
-_template: page.jade
+_template: schedule_day.jade
 ---
 title: Conference Schedule
 ---
@@ -9,12 +9,12 @@ body:
 ##Conference Schedule
 
 Our schedule has not been determined yet. We are seeking 8 speakers for 45 minute talks and 5 lightning talks
-during lunch. 
+during lunch.
 
 Submit your papers here: <a href="https://www.papercall.io/indypy-conf" target="_blank">
 https://www.papercall.io/indypy-conf</a>
 
-The CFP ends Feb. 8th at 12am EST. 
+The CFP ends Feb. 8th at 12am EST.
 
 Here are a few suggested categories/topics:
 - For Business:
@@ -33,3 +33,18 @@ Here are a few suggested categories/topics:
   - Data Management in IoT
   - Machine Learning and Forecasting
   - IOT Device Management and Deployment
+
+  start, end, description, link
+  8:30am, 9:00am, Registration and light breakfast,
+  9:00am, 9:15am, Keynote by Calvin Hendryx-Parker, CTO, Six Feet Up,
+  9:15am, 9:45am, TBD,
+  10:00am, 10:45am, TBD,
+  10:45am, 11:15am, Break,
+  11:15am, 12:00pm, TBD,
+  12:00am, 1:00pm, Lunch and Lightning Talks,
+  1:00pm, 1:45pm, TBD,
+  2:00pm, 2:45pm, TBD,
+  2:45pm, 3:15pm, Break,
+  3:15pm, 4:00pm, TBD
+  4:15pm, 5:00pm, TBD
+  5:00pm, 5:15pm, Closure
