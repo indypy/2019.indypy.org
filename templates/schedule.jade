@@ -36,14 +36,14 @@ block main
                     -
                     #[span.end {{ timeslot.end }}]
                 td.description
-                    {% set talk=site.query("/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
-                    {% if timeslot.link %}
-                    a(href="{{ timeslot.link|url }}").
-                        #[span.label {{ timeslot.description }}]
+                    {% set talk=site.query("/automate/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
+                    {% if talk %}
+                    a(href="{{ talk|url }}").
+                        #[span.speaker {{ talk.speaker }}]: #[span.title {{ talk.title }}]
                     {% else %}
                     #[span.label {{ timeslot.description }}]
                     {% endif %}
             {% endfor %}
         {% else %}
-        h3 Check out our #[a(href="{{ '/talks'|url }}") incredible speakers] while you wait.
+        h3 Check out our #[a(href="{{ '/automate/talks'|url }}") incredible speakers] while you wait.
         {% endfor %}
