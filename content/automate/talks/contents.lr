@@ -1,10 +1,10 @@
-_model: page
+_model: talks
 ---
-_template: page.jade
+_template: talks.jade
 ---
 title: Speakers
 ---
-body:
+description:
 
 ##Speakers
 
@@ -33,4 +33,4 @@ Here are a few suggested categories/topics:
   - Data Management in IoT
   - Machine Learning and Forecasting
   - IOT Device Management and Deployment
--YOUR TALK HERE
+- YOUR TALK HERE

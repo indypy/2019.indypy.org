@@ -28,12 +28,10 @@ block main
                     -
                     #[span.end {{ timeslot.end }}]
                 td.description
-                    {% set talk=site.query("/talks").filter((F.scheduled_date == this.date).and(F.scheduled_time == timeslot.start)).first() %}
+                    {% set talk=site.query("/automate/talks").filter((F.scheduled_date == this.date).and(F.scheduled_time == timeslot.start)).first() %}
                     {% if talk %}
                     a(href="{{ talk|url }}").
-                        #[span.title {{ talk.title }}]
-                        <br/>
-                        #[span.speaker {{ talk.speaker }}]
+                        #[span.speaker {{ talk.speaker }}]: #[span.title {{ talk.title }}]
                     {% else %}
                     #[span.label {{ timeslot.description }}]
                     {% endif %}
