@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Lucas Feiock
+---
+bio:
+
+Lucas Feiock is a Senior Business Intelligence Consultant with KiZAN Technologies. He has four years of experience with the Microsoft BI Stack. In addition to data warehousing, data integration and data visualization, Lucas is also involved with machine learning and advanced analytics. He has experience working in multiple industries including manufacturing, sales, gas and electric utilities, and health care.
+
+---
+company: KiZAN Technologies
+---
+twitter: LucasFeiock
+---
+website: https://sql-stack.com/
+---
+title:  Using PySpark with Databricks Structured Streaming
+---
+scheduled_date: 2019-03-22
+---
+scheduled_time: 2:00 pm
+---
+abstract:
+
+Databricks is a heavy hitter in big data environments. HP, Shell, Nielsen, and Cisco are customers that have leveraged Databricks to accelerate their data platform solutions. From solutions in fraud detection, IoT, and genomics Databricks provides a Unified Analytics Platform to meet any demand.
