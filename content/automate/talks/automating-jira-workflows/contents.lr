@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Guy Matz
+---
+bio:
+
+Been a UNIX sysadmin for, like, forever, it seems. Doing with people call DevOps for the past 10 years...
+---
+company: Schrodinger Inc.
+---
+twitter:
+---
+website: 
+---
+title:  Automating Jira Workflows
+---
+scheduled_date: 2019-03-22
+---
+scheduled_time: 9:15am
+---
+abstract:
+
+Jira is ubiquitous and it has sophisticated workflows built into it . . . wouldn’t it be great to write a little code that jira webhooks could call when a human doesn’t need to be involved in one of the steps of the workflow?!

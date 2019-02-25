@@ -1,0 +1,24 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Thomas McGinnis
+---
+bio:
+
+---
+company:
+---
+twitter:
+---
+website:
+---
+title:  Practicing Safe Selects: Avoiding the Shame & Embarrassment of Sleazy Forecast Model Choice in a Machine Learning World
+---
+scheduled_date: 2019-03-22
+---
+scheduled_time: 1:00pm
+---
+abstract:
+
+Python’s amazing array of mathematical tools (from easy scripting of equations to whole libraries of pre-assembled operations) mask the danger of constructing a forecasting tool unsuited to real world use. Rather than fix things post-hoc, let’s address forecasting from a First Principles approach.

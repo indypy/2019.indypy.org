@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Matt Yancey
+---
+bio:
+
+I’m a data scientist, data illustrator, and writer. I enjoy finding undiscovered insights in data. Currently I’m a principle machine learning engineer where I help set best practices for AI project development.
+
+---
+company:
+---
+twitter:
+---
+website: http://livingwithdata.com/
+---
+title:  Automating Your Data Clean Up
+---
+scheduled_date: 2019-03-22
+---
+scheduled_time: 11:15am
+---
+abstract:
+
+Data scientist’s knows that building a model is only 20% of their time, but cleaning the data is 80%. Yet many of the automation tools focus on the modeling (e.g., DataRobot). I’ll demo some tools and tips for automating the process of data profiling and cleaning.

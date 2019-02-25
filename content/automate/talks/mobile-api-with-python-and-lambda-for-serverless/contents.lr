@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Igor Gejdos
+---
+bio:
+
+Currently working on medical devices and digital healthcare solutions for Roche Diabetes Care.
+---
+company: Roche Diabetes Care
+---
+twitter:
+---
+website: https://www.linkedin.com/in/ig123
+---
+title:  Mobile API with Python and Lambda for Serverless
+---
+scheduled_date: 2019-03-22
+---
+scheduled_time: 10:00am
+---
+abstract:
+
+Serverless architectures represent the “Backend as a Service” (BaaS) paradigm. The talk will demonstrate step by step example of implementing mobile API using Python with Amazon Lambda, API Gateway and DynamoDB stack. Serverless architectures may benefit from reduced operational cost, complexity, and development lead time but they may introduce dependency on a cloud infrastructure provider. The vendor dependency can be reduced by using “serverless” framework, an open-source CLI for building and deploying serverless applications.
