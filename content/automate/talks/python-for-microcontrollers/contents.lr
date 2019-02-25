@@ -2,25 +2,24 @@ _model: talk
 ---
 _template: talk.jade
 ---
-speaker: Mike Flockenhaus
+speaker: Ronald Pulliam
 ---
 bio:
 
-My name is Mike Flockenhaus. I am currently the CTO at SteadyServ Technologies. I have been in the technology space for over 30 years. I started my career at US Robotics in the Chicago area. I began my 10-year career with USR as a DSP Hardware/Software Engineer. I have been with various startups along the path of my career. In 2001 my family and I moved from to the Indy area. I went to work for Escient Technologies, a Scott Jones company. We were acquired by D&M Holdings in 2003. D&M was a Japanese Company at the time. I spent another 10 years there working through various projects and delivering Consumer Electronics products with the company. In 2013, I joined SteadyServ as it’s lone Hardware/Software Engineer. At the time, the company was outsourcing all of its Product Development. In 2014, the company acquired PintLabs. A group of 3 individuals developing a database of beer! It is with these 3 individuals that SteadyServ slowly starting migrating its out-of-house Engineering teams to in-house developers. I have set on several boards in my past. Most notable of which is the Fishers Technology committee prior to Fishers becoming a city. My favorite band is the Grateful Dead and while I miss Jerry Garcia very much, John Mayer can shred a guitar as I have never seen!
 
 ---
-company: SteadyServ Technologies
+company: Flexware Innovation
 ---
-twitter: mr_flocky
+twitter: RuhtraRon
 ---
-website: https://steadyserv.com/
+website: https://ronaldpulliam.com/
 ---
-title:  IoT Device Management and Deployment
+title:  Python for Microcontrollers
 ---
 scheduled_date: 2019-03-22
 ---
-scheduled_time: 4:15pm
+scheduled_time: 3:15pm
 ---
 abstract:
 
-SteadyServ measures beer in beer kegs! We use Python in a number of areas of our solution. This discussion will center around several areas of our design and implementation. From our proprietary Zigbee algorithm implementation within the Python enabled Digi family of gateway products that send smart scale readings and information up to our AWS cloud. To how Python is used to analyze the vast amounts of data that are ingested through various means. This includes both structured (cleansed in-house) and unstructured (external) data feeds.
+Raspberry Pi’s are great, but sometimes you just need smaller size, better power management, better timing, or other capabilities without the overhead and complexities of an OS. We’ll go over the variations of micropython, the boards they work with, and some practical use cases and implementations.
