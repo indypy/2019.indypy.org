@@ -2,19 +2,19 @@ _model: talk
 ---
 _template: talk.jade
 ---
-speaker: Guy Matz
+speaker: David Smith
 ---
 bio:
 
-Been a UNIX sysadmin for, like, forever, it seems. Doing with people call DevOps for the past 10 years...
+David Smith is an associate instructor of software engineering at Kenzie Academy and graduate information science student at Indiana University — Bloomington. Over the last fifteen years, he has worked in systems administration, data analysis, UX, operations, and web development.
 ---
-company: Schrodinger Inc.
+company: Kenzie Academy
 ---
 twitter:
 ---
-website: 
+website: https://www.linkedin.com/in/infosmith/
 ---
-title:  Automating Jira Workflows
+title:  Simplified Scripts with Google’s Python-Fire
 ---
 scheduled_date: 2019-03-22
 ---
@@ -22,4 +22,4 @@ scheduled_time: 9:15am
 ---
 abstract:
 
-Jira is ubiquitous and it has sophisticated workflows built into it . . . wouldn’t it be great to write a little code that jira webhooks could call when a human doesn’t need to be involved in one of the steps of the workflow?!
+Writing argument parsers and handling nested commands with argparse is ugly to all except pure Python advocates. Click, docopt, Clint and countless other libraries are evidence of the Python community’s enduring dissatisfaction. Each were beautiful in their own right, but all added levels of complexity that all but the libraries’ initiated understood. Google’s Python Fire eliminates complexity other libraries have added which is reflected in its rapid rise in popularity. Simply define your functions, classes, or both and expected command line arguments are implicitly parsed from their signatures.
