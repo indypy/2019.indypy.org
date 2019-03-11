@@ -1,0 +1,28 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Calvin Hendryx-Parker
+---
+bio:
+
+Calvin Hendryx-Parker is the co-founder and CTO of Six Feet Up, a Python web application development company established in 1999. At Six Feet Up, Calvin establishes the company's technical vision and leads all aspects of the company's technology development. He provide the strategic vision for enhancing the offerings of the company and infrastructure, and works with the team to set company priorities and implement processes that will help improve product and service development. Calvin is also the co-founder of the Python user group IndyPy, the largest tech meetup in Indiana with over 1,500 members.
+---
+company: Six Feet Up
+---
+twitter: @calvinhp
+---
+website: https://sixfeetup.com/
+---
+title:  The Rules of DevOps Club
+---
+scheduled_date: 2019-03-22
+---
+scheduled_time: 9:00am
+---
+abstract:
+People, welcome to DevOps Club.
+
+You are not your hand-crafted server. You are not the manual release process. You are not the contents of your shell history. You are the strongest and smartest folks who’ve ever lived. DevOps Club is not an exclusive club, we are a group of adventurous explorers building a reality from our automation fantasies. Your servers are not beautiful or unique snowflakes.
+
+I am Jack’s perfectly executed release.
