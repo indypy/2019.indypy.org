@@ -41,7 +41,10 @@ html
 
         block extrahead
 
-    body(class="{% block body_class %}{% endblock %}")
+    body(class="{% block body_class %}{% endblock %}
+                {% if this.is_child_of('/automate') %}site-automate{% endif %}
+                {% if this.is_child_of('/webconf') %}site-webconf{% endif %}
+               ")
 
         #page(ng-controller="Ctrl")
 
