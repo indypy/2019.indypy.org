@@ -61,7 +61,8 @@ html
                 block main
             
             #banner
-                a(href="https://ti.to/six-feet-up/indypy-conf")
+                a(href="{% if this.is_child_of('/automate') %}https://ti.to/six-feet-up/indypy-conf{% endif %}
+                        {% if this.is_child_of('/webconf') %}https://ti.to/six-feet-up/indypy-web-conf-2019{% endif %}")
                     strong Register#[br]Here
 
             footer
