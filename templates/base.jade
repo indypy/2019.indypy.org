@@ -51,10 +51,18 @@ html
             header(headroom, ng-class="{scrolling:isScrolling,up:waypoints.info.up,down:waypoints.info.down}")
                 .container
                     .logo
+                        {% if this.is_child_of('/automate') %}
                         a.bg-contain.bg-ir(
                             href="/automate",
                             ff-bg="/static/images/header-logo.png"
                         ) IndyPy Automate Conf ’19
+                        {% endif %}
+                        {% if this.is_child_of('/webconf') %}
+                        a.bg-contain.bg-ir(
+                            href="/webconf",
+                            ff-bg="/static/images/webconf-header-logo.png"
+                        ) IndyPy Automate Conf ’19
+                        {% endif %}
                 {% if this.is_child_of('/automate') %}{% include "includes/automate_nav.jade" %}{% endif %}
                 {% if this.is_child_of('/webconf') %}{% include "includes/webconf_nav.jade" %}{% endif %}
 
