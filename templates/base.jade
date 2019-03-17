@@ -55,7 +55,8 @@ html
                             href="/automate",
                             ff-bg="/static/images/header-logo.png"
                         ) IndyPy Automate Conf ’19
-                {% include "includes/nav.jade" %}
+                {% if this.is_child_of('/automate') %}{% include "includes/automate_nav.jade" %}{% endif %}
+                {% if this.is_child_of('/webconf') %}{% include "includes/webconf_nav.jade" %}{% endif %}
 
             #main
                 block main
@@ -100,7 +101,8 @@ html
                     ff-bg="/static/images/close.svg",
                     ng-click="isMenuVisible=false"
                 )
-                {% include "includes/nav.jade" %}
+                {% if this.is_child_of('/automate') %}{% include "includes/automate_nav.jade" %}{% endif %}
+                {% if this.is_child_of('/webconf') %}{% include "includes/webconf_nav.jade" %}{% endif %}
 
         block bottom
             script.
