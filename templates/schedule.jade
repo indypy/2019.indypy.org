@@ -13,7 +13,8 @@ block main
 
     .container
 
-        {% set schedule_days = site.query("/automate/schedule") %}
+        {% if this.is_child_of('/automate') %}{% set schedule_days = site.query("/automate/schedule") %}{% endif %}
+        {% if this.is_child_of('/webconf') %}{% set schedule_days = site.query("/webconf/schedule") %}{% endif %}
 
         {% if schedule_days %}
         h1 Conference Schedule
