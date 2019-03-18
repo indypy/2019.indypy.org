@@ -75,6 +75,9 @@ html
                         li.youtube
                             a(href="{{ bag('settings.YOUTUBE_URL') }}", target="_blank")
                                 |#[i.fa.fa-youtube] IndyPy
+                        li.email
+                            a(href="mailto:info@indypy.org")
+                                |#[i.fa.fa-at] Contact Us
 
                     block logos
                         {% include "includes/sponsor_logos_smol.jade" %}
