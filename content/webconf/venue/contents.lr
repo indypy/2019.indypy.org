@@ -1,0 +1,19 @@
+_template: venue.jade
+---
+title: Our Venue
+---
+background: /static/backgrounds/webconf-venue.jpg
+---
+body:
+
+**Forum Conference & Events Center (Fishers, IN)**
+
+The Forum Conference & Events Center is a large event space, where we will be breaking the conference into
+3 sessions throughout the course of the day.
+
+Our location for IndyPy Web Conf is the Forum Conference & Events Center.
+
+Around the venue are a wide variety of restaurants, coffee shops and shopping opportunities. This bustling
+area is only 20 minutes from Downtown Indianapolis.
+
+---
