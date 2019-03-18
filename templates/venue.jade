@@ -44,7 +44,22 @@ append bottom
     )
 
     script.
+        {% if this.is_child_of('/automate') %}
         var venueCoordinates = [39.9660977,-86.0107927];
+        var popUpContent = '<h3>Launch Fishers</h3>' +
+            '12175 Visionary Way<br>' +
+            'Fishers, IN 46038<br><br>' +
+            '<a style="color: black" href="https://goo.gl/maps/y6yZ4FCHJC32">View on Google Maps</a>';
+        {% endif %}
+
+        {% if this.is_child_of('/webconf') %}
+        var venueCoordinates = [39.950266, -86.002970];
+        var popUpContent = '<h3>Forum Conference & Events Center</h3>' +
+            '11313 USA Pkwy<br>' +
+            'Fishers, IN 46037<br><br>' +
+            '<a style="color: black" href="https://goo.gl/maps/NDMGXvAhtwm">View on Google Maps</a>'
+        {% endif %}
+
         var map = L.map(
             'map', {
                 scrollWheelZoom: false,
@@ -61,10 +76,5 @@ append bottom
             ext: 'png'
         }).addTo(map);
 
-        var venue = L.marker(venueCoordinates).bindPopup(
-            '<h3>Launch Fishers</h3>' +
-            '12175 Visionary Way<br>' +
-            'Fishers, IN 46038<br><br>' +
-            '<a style="color: black" href="https://goo.gl/maps/y6yZ4FCHJC32">View on Google Maps</a>'
-        ).addTo(map);
+        var venue = L.marker(venueCoordinates).bindPopup(popUpContent).addTo(map);
         venue.openPopup();
