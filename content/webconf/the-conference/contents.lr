@@ -1,0 +1,16 @@
+_template: about.jade
+---
+title: 2019 - Fishers
+---
+background: /static/backgrounds/conference-room-2.jpg
+---
+body:
+
+IndyPy Conf's 2019 conference series presents: IndyPy Web Conf - Python on the Web. Join us for this conference
+focused on Python on the Web, meet fellow Pythonistas, and party with the Sixies.
+
+Organized by Six Feet Up, the Indianapolis Python Meetup (“IndyPy”) is a leading national group promoting the
+Python programming language and connecting the Python community. IndyPy draws Python enthusiasts from the entire
+Midwest for regular events. In 2019, the group celebrates 12 years of success with over 1,500 members.
+
+###June 6-7th, 2019, 2019<br>Fishers, IN USA
