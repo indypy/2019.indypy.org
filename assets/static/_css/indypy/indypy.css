@@ -16,8 +16,15 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 140px;
     overflow: hidden;
+}
+
+.thanks {
+    font-size: .8em;
+}
+.thanks a,
+.thanks a:hover {
+    color: #fff;
 }
 
 /* Footer sponsor logo stuff */
@@ -29,6 +36,7 @@ footer .sponsor-logos-footer {
 footer .sponsor-logos-footer ol {
     display: flex;
     align-items: center;
+    margin-bottom: 0;
 }
 
 footer .sponsor-logos-footer li {
