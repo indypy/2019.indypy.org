@@ -673,26 +673,35 @@ footer .links li a:hover {
     font-size: 1.3rem;
 }
 
-#sponsors .sponsor-logos .item.diamond .logo,
-#sponsors .sponsor-logos .item.diamond_npo .logo {
-    height: 250px;
-}
-
-#sponsors .sponsor-logos .item.title .logo,
-#sponsors .sponsor-logos .item.title_npo .logo {
-    width: 250px;
-    height: 200px;
-}
 #sponsors .sponsor-logos .item.organizer .logo,
 #sponsors .sponsor-logos .item.organizer_npo .logo {
+    width: 250px;
+    height: 170px;
+}
+#sponsors .sponsor-logos .item.title .logo,
+#sponsors .sponsor-logos .item.title_npo .logo {
+    width: 220px;
+    height: 160px;
+}
+#sponsors .sponsor-logos .item.diamond .logo,
+#sponsors .sponsor-logos .item.diamond_npo .logo {
     width: 200px;
     height: 150px;
 }
-
-#sponsors .sponsor-logos .item.silver .logo,
-#sponsors .sponsor-logos .item.silver_npo .logo{
-    width: 150px;
+#sponsors .sponsor-logos .item.platinum .logo,
+#sponsors .sponsor-logos .item.platinum_npo .logo{
+    width: 170px;
+    height: 110px;
+}
+#sponsors .sponsor-logos .item.gold .logo,
+#sponsors .sponsor-logos .item.gold_npo .logo{
+    width: 140px;
     height: 90px;
+}
+#sponsors .sponsor-logos .item.community.sponsor .logo,
+#sponsors .sponsor-logos .item.community.sponsor_npo .logo {
+    width: 120px;
+    height: 70px;
 }
 
 #sponsors .sponsor-logos .item a {
