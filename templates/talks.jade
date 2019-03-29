@@ -13,7 +13,12 @@ block main
         {{ this.description.html }}
 
         .item-list
-            {% for talk in site.query('/automate/talks') %}
+            {% if this.is_child_of('/automate') %}
+            {% set talks=site.query('/automate/talks') %}
+            {% elif this.is_child_of('/webconf') %}
+            {% set talks=site.query('/webconf/talks') %}
+            {% endif %}
+            {% for talk in talks %}
             .item
                 a(href="{{ talk|url }}")
                     {% set headshot = talk.attachments.get('headshot.jpg') %}

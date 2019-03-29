@@ -30,20 +30,50 @@ block main
         h3 {{ day.date|dateformat("EEEE, dd MMMM yyyy") }}
 
         table.schedule-table
+            {% if this.is_child_of('/webconf') %}
+            thead
+                td Time
+                td Grand Forum
+                td Breakout A
+                td Breakout B
+            {% endif %}
             {% for timeslot in day.program %}
             tr
                 td.time.
                     #[span.start {{ timeslot.start }}]
+                    {% if this.is_child_of('/automate') %}
                     -
                     #[span.end {{ timeslot.end }}]
+                    {% endif %}
+                {% if this.is_child_of('/automate') %}
+                {% set talk=site.query("/automate/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
                 td.description
-                    {% set talk=site.query("/automate/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
                     {% if talk %}
                     a(href="{{ talk|url }}").
                         #[span.speaker {{ talk.speaker }}]: #[span.title {{ talk.title }}]
                     {% else %}
                     #[span.label {{ timeslot.description }}]
                     {% endif %}
+                {% endif %}
+
+                {% if this.is_child_of('/webconf') %}
+                {% set talk=site.query("/webconf/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
+                {% if talk %}
+                {% for track in ["grand_forum", "breakout_a", "breakout_b"] %}
+                td.track
+                    {% for talk in talks %}
+                    {% if talk.track == track %}
+                    a(href="{{ talk|url }}").
+                        #[span.speaker {{ talk.speaker }}]: #[span.title {{ talk.title }}]
+                    {% endif %}
+                    {% endfor %}
+                {% endfor %}
+                {% else %}
+                td.description(colspan=3)
+                    #[span.label {{ timeslot.description }}]
+                {% endif %}
+                {% endif %}
+
             {% endfor %}
         {% else %}
         h3 Check out our #[a(href="{{ '/automate/talks'|url }}") incredible speakers] while you wait.
