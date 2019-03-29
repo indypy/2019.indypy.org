@@ -108,3 +108,29 @@ body.talks.schedule .schedule-table td > a {
     display: block;
     text-decoration: none;
 }
+
+/* WebConf Schedule */
+
+body.talks.schedule.site-webconf .schedule-table {
+    font-size: .8em;
+}
+body.talks.schedule.site-webconf .schedule-table thead td {
+    border-right: 1px solid #e1e1e1;
+    font-weight: bold;
+    text-align: center;
+}
+body.talks.schedule.site-webconf .schedule-table td.time {
+    border-right: 1px solid #e1e1e1;
+    font-weight: bold;
+    text-align: right;
+    width: 5em;
+}
+body.talks.schedule.site-webconf .schedule-table td.description {
+    background-color: #e5e5e5;
+    border-right: 1px solid #e1e1e1;
+    text-align: center;
+}
+body.talks.schedule.site-webconf .schedule-table td.track {
+    border-right: 1px solid #e1e1e1;
+    text-align: center;
+}
