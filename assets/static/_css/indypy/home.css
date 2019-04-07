@@ -47,6 +47,16 @@ body.home #welcome .talks-link {
     color: inherit;
     font-weight: bold;
 }
+@media (max-width: 500px) {
+    body.home #welcome .main {
+        min-height: 810px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width:767px) {
+    body.home #welcome .main {
+        min-height: 910px;
+    }
+}
 
 body.home #speakers {
     color: #161616;
