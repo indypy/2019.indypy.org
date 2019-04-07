@@ -70,3 +70,13 @@ body.about.organizers .contact a {
 body.about.organizers .contact a:hover {
     opacity: 0.5;
 }
+@media screen and (max-width: 500px) {
+    body.about.page_the-conference #main .main {
+        min-height: 770px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width:767px) {
+    body.about.page_the-conference #main .main {
+        min-height: 900px;
+    }
+}
