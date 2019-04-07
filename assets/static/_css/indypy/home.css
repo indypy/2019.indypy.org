@@ -142,6 +142,16 @@ body.home #newsletter .one-half {
 body.home #newsletter .main {
     text-align: center;
 }
+@media (max-width: 500px) {
+    body.home #newsletter .main {
+        min-height: 688px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width:767px) {
+    body.home #newsletter .main {
+        min-height: 470px;
+    }
+}
 body.home #newsletter .main input {
     background: #000;
     color: white;
@@ -164,6 +174,12 @@ body.home #newsletter .main .button {
     }
 }
 
+@media screen and (max-width: 550px) {
+    body.home #newsletter .social {
+        margin-bottom: 20px;
+    }
+}
+
 body.home #newsletter .social .fa {
     color: black;
     font-size: 30px;
@@ -172,13 +188,6 @@ body.home #newsletter .social .fa {
     width: 50px;
     text-align: center;
     text-decoration: none;
-}
-body.home #newsletter .social .indypy-icon {
-    background-image: url("../images/indypy-bw-400.png");
-    background-size: cover;
-}
-body.home #newsletter .social .indypy-icon .fa {
-    visibility: hidden;
 }
 
 body.home #newsletter .social a {
@@ -192,6 +201,12 @@ body.home #newsletter .social a {
 }
 body.home #newsletter a:hover {
     opacity: 0.5;
+}
+@media screen and (max-width: 768px) {
+    body.home #newsletter .social a {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 /* TEMP */
