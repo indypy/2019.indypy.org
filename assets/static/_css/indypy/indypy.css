@@ -511,7 +511,7 @@ footer .links li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 100;
+    z-index: 1000;
     overflow-y: auto;
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -825,4 +825,8 @@ body.error #main {
 .footnote {
     font-size: 1.5rem;
     color: #7100FF;
+}
+
+#lektor-edit-link {
+    display: none;
 }
