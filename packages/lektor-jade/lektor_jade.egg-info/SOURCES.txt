@@ -1,4 +1,5 @@
 lektor_jade.py
+setup.py
 lektor_jade.egg-info/PKG-INFO
 lektor_jade.egg-info/SOURCES.txt
 lektor_jade.egg-info/dependency_links.txt

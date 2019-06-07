@@ -45,6 +45,7 @@ html
                 page_{{ this._slug }}
                 {% if this.is_child_of('/automate') %}site-automate{% endif %}
                 {% if this.is_child_of('/webconf') %}site-webconf{% endif %}
+                {% if this.is_child_of('/pydata') %}site-pydata{% endif %}
                ")
 
         #page(ng-controller="Ctrl")
@@ -66,6 +67,7 @@ html
                         {% endif %}
                 {% if this.is_child_of('/automate') %}{% include "includes/automate_nav.jade" %}{% endif %}
                 {% if this.is_child_of('/webconf') %}{% include "includes/webconf_nav.jade" %}{% endif %}
+                {% if this.is_child_of('/pydata') %}{% include "includes/pydata_nav.jade" %}{% endif %}
 
             #main
                 block main

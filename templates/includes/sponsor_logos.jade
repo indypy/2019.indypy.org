@@ -1,5 +1,6 @@
 {% if this.is_child_of('/automate') %}{% set sponsors = site.query('/automate/sponsors').include_undiscoverable(True) %}{% endif %}
 {% if this.is_child_of('/webconf') %}{% set sponsors = site.query('/webconf/sponsors').include_undiscoverable(True) %}{% endif %}
+{% if this.is_child_of('/pydata') %}{% set sponsors = site.query('/pydata/sponsors').include_undiscoverable(True) %}{% endif %}
 
 #sponsors
     .sponsor-logos
