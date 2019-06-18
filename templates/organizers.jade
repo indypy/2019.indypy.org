@@ -18,7 +18,8 @@ block main
 
         .item-list
 
-            {% set organizers = site.query('/automate/organizers').include_undiscoverable(True) %}
+            {% if this.is_child_of('/automate') %}{% set organizers = site.query('/automate/organizers').include_undiscoverable(True) %}{% endif %}
+            {% if this.is_child_of('/pydata') %}{% set organizers = site.query('/pydata/organizers').include_undiscoverable(True) %}{% endif %}
             {% for organizer in organizers.order_by('position') %}
             {% include "includes/organizer.jade" %}
             {% endfor %}
