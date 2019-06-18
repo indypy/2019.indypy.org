@@ -38,6 +38,13 @@ block main
                 td Breakout A
                 td Breakout B
             {% endif %}
+            {% if this.is_child_of('/pydata') %}
+            thead
+                td Time
+                td Grand Forum
+                td Breakout A
+                td Breakout B
+            {% endif %}
             {% for timeslot in day.program %}
             tr
                 td.time.
@@ -59,6 +66,24 @@ block main
 
                 {% if this.is_child_of('/webconf') %}
                 {% set talk=site.query("/webconf/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
+                {% if talk %}
+                {% for track in ["grand_forum", "breakout_a", "breakout_b"] %}
+                td.track
+                    {% for talk in talks %}
+                    {% if talk.track == track %}
+                    a(href="{{ talk|url }}").
+                        #[span.speaker {{ talk.speaker }}]: #[span.title {{ talk.title }}]
+                    {% endif %}
+                    {% endfor %}
+                {% endfor %}
+                {% else %}
+                td.description(colspan=3)
+                    #[span.label {{ timeslot.description }}]
+                {% endif %}
+                {% endif %}
+
+                {% if this.is_child_of('/pydata') %}
+                {% set talk=site.query("/pydata/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
                 {% if talk %}
                 {% for track in ["grand_forum", "breakout_a", "breakout_b"] %}
                 td.track

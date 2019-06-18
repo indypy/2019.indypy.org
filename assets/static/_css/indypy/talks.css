@@ -8,7 +8,7 @@ body.talks.talk-list .item {
     vertical-align: top;
 }
 body.talks.talk-list .item a {
-   text-decoration: none; 
+   text-decoration: none;
 }
 body.talks.talk-list .headshot {
     display: block;
@@ -111,26 +111,31 @@ body.talks.schedule .schedule-table td > a {
 
 /* WebConf Schedule */
 
-body.talks.schedule.site-webconf .schedule-table {
+body.talks.schedule.site-webconf .schedule-table,
+body.talks.schedule.site-pydata .schedule-table {
     font-size: .8em;
 }
-body.talks.schedule.site-webconf .schedule-table thead td {
+body.talks.schedule.site-webconf .schedule-table thead td,
+body.talks.schedule.site-pydata .schedule-table thead td {
     border-right: 1px solid #e1e1e1;
     font-weight: bold;
     text-align: center;
 }
-body.talks.schedule.site-webconf .schedule-table td.time {
+body.talks.schedule.site-webconf .schedule-table td.time,
+body.talks.schedule.site-pydata .schedule-table td.time {
     border-right: 1px solid #e1e1e1;
     font-weight: bold;
     text-align: right;
     width: 5em;
 }
-body.talks.schedule.site-webconf .schedule-table td.description {
+body.talks.schedule.site-webconf .schedule-table td.description,
+body.talks.schedule.site-pydata .schedule-table td.description {
     background-color: #e5e5e5;
     border-right: 1px solid #e1e1e1;
     text-align: center;
 }
-body.talks.schedule.site-webconf .schedule-table td.track {
+body.talks.schedule.site-webconf .schedule-table td.track,
+body.talks.schedule.site-pydata .schedule-table td.track {
     border-right: 1px solid #e1e1e1;
     text-align: center;
 }
