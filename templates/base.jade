@@ -71,10 +71,11 @@ html
 
             #main
                 block main
-            
+
             #banner
                 a(href="{% if this.is_child_of('/automate') %}https://ti.to/six-feet-up/indypy-conf{% endif %}
-                        {% if this.is_child_of('/webconf') %}https://ti.to/six-feet-up/indypy-web-conf-2019{% endif %}")
+                        {% if this.is_child_of('/webconf') %}https://ti.to/six-feet-up/indypy-web-conf-2019{% endif %}
+                        {% if this.is_child_of('/pydata') %}https://ti.to/six-feet-up/pydata-indy-2019{% endif %}")
                     strong Register#[br]Here
 
             footer
@@ -119,4 +120,3 @@ html
             script.
                 var data = {};
                 indypy.start(data);
-

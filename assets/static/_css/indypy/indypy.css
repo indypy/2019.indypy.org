@@ -592,6 +592,9 @@ footer .links li a:hover {
     transform: rotate(-45deg);
     z-index: 100;
 }
+.site-pydata #banner {
+  background: #92278F;
+}
 #banner a {
     display: block;
     width: 100%;
