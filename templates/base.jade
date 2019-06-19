@@ -3,7 +3,17 @@ doctype html
 html
 
     head
-        title {% block page_title %}IndyPy Web Conf ’19 &ndash; Fishers, IN{% endblock %}
+
+        title
+            {% block page_title %}
+            {% if this.is_child_of('/automate') %}IndyPy Automate Conf ’19 &ndash; Fishers, IN{% endif %}
+
+            {% if this.is_child_of('/webconf') %}IndyPy Web Conf ’19 &ndash; Fishers, IN{% endif %}
+
+            {% if this.is_child_of('/pydata') %}IndyPy pydata Conf ’19 &ndash; Indianapolis, IN{% endif %}
+            {% endblock %}
+
+
         meta(charset="UTF-8")
         meta(http-equiv="content-Language", content="en_US")
         meta(name="google", content="notranslate") {# TEMP #}
