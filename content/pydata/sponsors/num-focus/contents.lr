@@ -1,0 +1,19 @@
+_hidden: yes
+---
+name: NumFocus
+---
+tier: program sponsor
+---
+is_npo: false
+---
+website: https://numfocus.org/
+---
+description:
+
+PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other.
+---
+logo: numfocus.png
+---
+logo_dark_bg: numfocus.png
+---
+signed_on: 2019-01-18
