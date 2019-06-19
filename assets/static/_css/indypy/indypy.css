@@ -710,6 +710,12 @@ footer .links li a:hover {
     height: 70px;
 }
 
+#sponsors .sponsor-logos .item.program.sponsor .logo,
+#sponsors .sponsor-logos .item.program.sponsor_npo .logo {
+    width: 120px;
+    height: 70px;
+}
+
 #sponsors .sponsor-logos .item a {
     display: block;
     width: 100%;
