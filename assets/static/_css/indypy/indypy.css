@@ -833,3 +833,7 @@ body.error #main {
 #lektor-edit-link {
     display: none;
 }
+
+body.home.site-pydata #welcome {
+    background-color: #92278F;
+}

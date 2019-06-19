@@ -37,7 +37,16 @@ block main
                 .container
                     .row.fade-up(in-view)
                         .one-half.column
+                            {% if this.is_child_of('/automate') %}
                             h2 2019 &mdash; Fishers
+                            {% endif %}
+                            {% if this.is_child_of('/webconf') %}
+                            h2 2019 &mdash; Fishers
+                            {% endif %}
+                            {% if this.is_child_of('/pydata') %}
+                            h2 2019 &mdash;  Indianapolis
+                            {% endif %}
+
                         .one-half.column
                             {% if this.is_child_of('/automate') %}
                             p.
@@ -69,6 +78,16 @@ block main
                             h3.caps.
                                 August 23rd, 2019#[br]
                                 Fishers, IN USA
+                            {% endif %}
+                            {% if this.is_child_of('/pydata') %}
+                            p.
+                                IndyPy Conf's 2019 conference series presents: IndyPy PyData Indy. Join us for this conference focused on Python on the Web, meet fellow Pythonistas, and party with the Sixies.
+
+                            p.
+                                Organized by Six Feet Up, the Indianapolis Python Meetup (“IndyPy”) is a leading national group promoting the Python programming language and connecting the Python community. IndyPy draws Python enthusiasts from the entire Midwest for regular events. In 2019, the group celebrates 12 years of success with over 1,600 members.
+                            h3.caps.
+                                October 11th, 2019#[br]
+                                Indianapolis, IN USA
                             {% endif %}
 
     section#newsletter
