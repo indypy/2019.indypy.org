@@ -65,6 +65,12 @@ html
                             ff-bg="/static/images/webconf-header-logo.png"
                         ) IndyPy Automate Conf ’19
                         {% endif %}
+                        {% if this.is_child_of('/pydata') %}
+                        a.bg-contain.bg-ir(
+                            href="/pydata",
+                            ff-bg="/static/images/pydata-header-logo.png"
+                        ) IndyPy Pydata Conf ’19
+                        {% endif %}
                 {% if this.is_child_of('/automate') %}{% include "includes/automate_nav.jade" %}{% endif %}
                 {% if this.is_child_of('/webconf') %}{% include "includes/webconf_nav.jade" %}{% endif %}
                 {% if this.is_child_of('/pydata') %}{% include "includes/pydata_nav.jade" %}{% endif %}
