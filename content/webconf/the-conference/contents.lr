@@ -6,10 +6,12 @@ background: /static/backgrounds/conference-room-2.jpg
 ---
 body:
 
+<<<<<<< HEAD
 IndyPy presents: Python Web Conf. Join us for this conference focused on Python on the Web, meet fellow Pythonistas, and party with the Sixies.
+=======
+IndyPy Conf's 2019 conference series presents: Python Web Conf. Join us for this conference focused on Python on the Web, meet fellow Pythonistas, and party with the Sixies.
+>>>>>>> changing the wording for the about page
 
-Organized by Six Feet Up, the Indianapolis Python Meetup (“IndyPy”) is a leading national group promoting the
-Python programming language and connecting the Python community. IndyPy draws Python enthusiasts from the entire
-Midwest for regular events. In 2019, the group celebrates 12 years of success with over 1,600 members.
+Organized by Six Feet Up, the Indianapolis Python Meetup (“IndyPy”) is a leading national group promoting the Python programming language and connecting the Python community. IndyPy draws Python enthusiasts from the entire Midwest for regular events. In 2019, the group celebrates 12 years of success with over 1,500 members.
 
 ###August 23rd, 2019 <br>Fishers, IN USA
