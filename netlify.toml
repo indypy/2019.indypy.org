@@ -5,5 +5,5 @@
 
 [[redirects]]
 from = "/"
-to = "/webconf"
+to = "https://indypy.org"
 status = 301
