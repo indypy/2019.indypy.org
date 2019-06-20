@@ -112,7 +112,9 @@ html
                 .container
                     ul.links
                         li
-                            a(href="{{ '/automate/code-of-conduct'|url }}") Code of Conduct
+                            a(href="{% if this.is_child_of('/automate') %}{{ '/automate/code-of-conduct'|url }} {% endif %}
+                            {% if this.is_child_of('/webconf') %}{{ '/webconf/code-of-conduct'|url }}{% endif %}
+                            {% if this.is_child_of('/pydata') %}{{ '/pydata/code-of-conduct'|url }}{% endif %}") Code of Conduct
                         li.slack
                             a(href="{{ bag('settings.SLACK_URL') }}", target="_blank")
                                 |#[i.fa.fa-slack] IndyPy
@@ -145,6 +147,7 @@ html
                 )
                 {% if this.is_child_of('/automate') %}{% include "includes/automate_nav.jade" %}{% endif %}
                 {% if this.is_child_of('/webconf') %}{% include "includes/webconf_nav.jade" %}{% endif %}
+                {% if this.is_child_of('/pydata') %}{% include "includes/pydata_nav.jade" %}{% endif %}
 
         block bottom
             script.
