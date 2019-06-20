@@ -21,10 +21,24 @@ html
             name="viewport",
             content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"
         )
+        {% if this.is_child_of('/automate') %}
         meta(
             name="description",
             content="Website for IndyPy Automate Conf ’19, a regional Python conference for automation in Fishers, IN USA."
         )
+        {% endif %}
+        {% if this.is_child_of('/webconf') %}
+        meta(
+            name="description",
+            content="Website for IndyPy Webconf Conf ’19, a regional Python conference for automation in Fishers, IN USA."
+        )
+        {% endif %}
+        {% if this.is_child_of('/pydata') %}
+        meta(
+            name="description",
+            content="Website for IndyPy Pydata Conf ’19, a regional Python conference for automation in Fishers, IN USA."
+        )
+        {% endif %}
         meta(
             name="keywords",
             content="Python,PyCon,Conference,Indianapolis,Fishers,Automation"
