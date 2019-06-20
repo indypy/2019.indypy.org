@@ -8,21 +8,16 @@ description:
 
 ##Speakers
 
-Currently we are seeking 21 experienced and first-time speakers for all topics related to:
+Currently we are seeking 9 speakers for all topics related to:
 
-- Django
-- Flask
-- Pyramid
-- Plone
-- CastleCMS
-- Quaive / Plone Intranet
-- Bika LIMS / Senaite
-- Tornado
-- TurboGears
-- REST APIs
-- Web Security
-- microservices
-- websockets
-- YOUR TOPIC HERE
+- Data Science
+- Data Analytics
+- AI/Machine Learning
+- VR
+- Blockchain
+- IoT
+- Privacy & Security
+- YOUR TOPIC HERE!
 
-Submit your talk topic here: https://www.papercall.io/indypy-web-conf-2019
+
+Submit your talk topic here: https://www.papercall.io/pydata-indy-2019
