@@ -15,10 +15,7 @@ block main
 
         {% if this.is_child_of('/automate') %}{% set schedule_days = site.query("/automate/schedule") %}{% endif %}
         {% if this.is_child_of('/webconf') %}{% set schedule_days = site.query("/webconf/schedule") %}{% endif %}
-<<<<<<< HEAD
         {% if this.is_child_of('/pydata') %}{% set schedule_days = site.query("/pydata/schedule") %}{% endif %}
-=======
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
 
         {% if schedule_days %}
         h1 Conference Schedule
@@ -36,17 +33,10 @@ block main
         table.schedule-table
             {% if this.is_child_of('/webconf') %}
             thead
-<<<<<<< HEAD
                 td.time Time
                 td Track 1
                 td Track 2
                 td Track 3
-=======
-                td Time
-                td Grand Forum
-                td Breakout A
-                td Breakout B
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
             {% endif %}
             {% for timeslot in day.program %}
             tr
@@ -56,7 +46,6 @@ block main
                     -
                     #[span.end {{ timeslot.end }}]
                     {% endif %}
-<<<<<<< HEAD
                     {% if this.is_child_of('/pydata') %}
                     -
                     #[span.end {{ timeslot.end }}]
@@ -74,10 +63,6 @@ block main
 
                 {% if this.is_child_of('/pydata') %}
                 {% set talk=site.query("/pydata/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
-=======
-                {% if this.is_child_of('/automate') %}
-                {% set talk=site.query("/automate/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
                 td.description
                     {% if talk %}
                     a(href="{{ talk|url }}").
@@ -90,11 +75,7 @@ block main
                 {% if this.is_child_of('/webconf') %}
                 {% set talk=site.query("/webconf/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
                 {% if talk %}
-<<<<<<< HEAD
                 {% for track in ["track_1", "track_2", "track_3"] %}
-=======
-                {% for track in ["grand_forum", "breakout_a", "breakout_b"] %}
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
                 td.track
                     {% for talk in talks %}
                     {% if talk.track == track %}
@@ -112,4 +93,3 @@ block main
             {% endfor %}
         {% else %}
         h3 Check out our #[a(href="{{ '/automate/talks'|url }}") incredible speakers] while you wait.
-        {% endfor %}
