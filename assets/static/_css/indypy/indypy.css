@@ -17,6 +17,9 @@ body {
 .site-pydata #main {
     padding-bottom: 185px; /* height of footer */
 }
+.site-webconf #main {
+    padding-bottom: 218px; /* height of footer */
+}
 footer {
     position: absolute;
     left: 0;

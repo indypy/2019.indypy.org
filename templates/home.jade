@@ -13,9 +13,12 @@ block main
             {% if this.is_child_of('/webconf') %}
             .image.bg-cover(ff-bg="/static/backgrounds/conference-room-3.jpg")
             {% endif %}
+<<<<<<< HEAD
             {% if this.is_child_of('/pydata') %}
             .image.bg-cover(ff-bg="/static/backgrounds/iStock-1138876390.jpg")
             {% endif %}
+=======
+>>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
         .overlay
         .main.vcontainer
             .inner
@@ -29,11 +32,14 @@ block main
                 .dates.
                     August 23rd, 2019
                 {% endif %}
+<<<<<<< HEAD
                 {% if this.is_child_of('/pydata') %}
                 .logo.bg-contain(ff-bg="/static/images/PyDataIndy-FullColor.png")
                 .dates.
                     October 11th, 2019
                 {% endif %}
+=======
+>>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
         a.down(ng-click="scrollTo('welcome')")
             {% include "includes/chevron-down.svg" %}
 
@@ -74,7 +80,11 @@ block main
                             {% endif %}
                             {% if this.is_child_of('/webconf') %}
                             p.
+<<<<<<< HEAD
                                 IndyPy Conf's 2019 conference series presents: Python Web Conf - Python on the Web.
+=======
+                                IndyPy Conf's 2019 conference series presents: IndyPy Web Conf - Python on the Web.
+>>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
                                 Join us for this conference focused on Python on the Web, meet fellow Pythonistas,
                                 and party with the Sixies.
 
@@ -87,6 +97,7 @@ block main
                                 August 23rd, 2019#[br]
                                 Fishers, IN USA
                             {% endif %}
+<<<<<<< HEAD
                             {% if this.is_child_of('/pydata') %}
                             p.
                                 IndyPy Conf's 2019 conference series presents: PyData Indy. Join us for this conference focused on Python on the Web, meet fellow Pythonistas, and party with the Sixies.
@@ -97,6 +108,8 @@ block main
                                 October 11th, 2019#[br]
                                 Indianapolis, IN USA
                             {% endif %}
+=======
+>>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
 
     section#newsletter
         .background(du-parallax, y="animator")
