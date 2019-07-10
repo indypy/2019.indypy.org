@@ -74,7 +74,6 @@ our issues.
 Overall, we're good to each other. We contribute to this community not because we have to, but because we want to.
 If we remember that, these guidelines will come naturally.
 
-<<<<<<< HEAD
 
 #Reporting an incident 
 Once an incident is reported to the IndyPy organizers (via [info@indypy.com](mailto:info@indypy.com)), we will do our due diligence to come to a productive solution for all parties. The steps below will be used as guidelines for incident reporting. IndyPy reserves the right to make updates to these guidelines without prior notice.
@@ -85,11 +84,6 @@ Within 7 business days of the initial incident report, IndyPy organizers will im
 
 Questions/comments/reports Please write to ​[info@indypy.com](mailto:info@indypy.com)
 
-
-=======
-Questions/comments/reports Please write to ​[info@indypy.com](mailto:info@indypy.com)
-
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
 This page inspired by:
 - <a href="https://www.djangoproject.com/conduct/"> DjangoCon Code of Conduct </a>
 - <a href="https://www.python.org/psf/codeofconduct/">Python Software Foundation Code of Conduct</a>
