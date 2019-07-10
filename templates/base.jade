@@ -3,7 +3,6 @@ doctype html
 html
 
     head
-<<<<<<< HEAD
 
         title
             {% block page_title %}
@@ -15,9 +14,6 @@ html
             {% endblock %}
 
 
-=======
-        title {% block page_title %}IndyPy Web Conf ’19 &ndash; Fishers, IN{% endblock %}
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
         meta(charset="UTF-8")
         meta(http-equiv="content-Language", content="en_US")
         meta(name="google", content="notranslate") {# TEMP #}
@@ -70,15 +66,10 @@ html
         block extrahead
 
     body(class="{% block body_class %}{% endblock %}
-<<<<<<< HEAD
                 page_{{ this._slug }}
                 {% if this.is_child_of('/automate') %}site-automate{% endif %}
                 {% if this.is_child_of('/webconf') %}site-webconf{% endif %}
                 {% if this.is_child_of('/pydata') %}site-pydata{% endif %}
-=======
-                {% if this.is_child_of('/automate') %}site-automate{% endif %}
-                {% if this.is_child_of('/webconf') %}site-webconf{% endif %}
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
                ")
 
         #page(ng-controller="Ctrl")
@@ -98,7 +89,6 @@ html
                             ff-bg="/static/images/webconf-header-logo.png"
                         ) IndyPy Automate Conf ’19
                         {% endif %}
-<<<<<<< HEAD
                         {% if this.is_child_of('/pydata') %}
                         a.bg-contain.bg-ir(
                             href="/pydata",
@@ -108,22 +98,14 @@ html
                 {% if this.is_child_of('/automate') %}{% include "includes/automate_nav.jade" %}{% endif %}
                 {% if this.is_child_of('/webconf') %}{% include "includes/webconf_nav.jade" %}{% endif %}
                 {% if this.is_child_of('/pydata') %}{% include "includes/pydata_nav.jade" %}{% endif %}
-=======
-                {% if this.is_child_of('/automate') %}{% include "includes/automate_nav.jade" %}{% endif %}
-                {% if this.is_child_of('/webconf') %}{% include "includes/webconf_nav.jade" %}{% endif %}
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
 
             #main
                 block main
 
             #banner
                 a(href="{% if this.is_child_of('/automate') %}https://ti.to/six-feet-up/indypy-conf{% endif %}
-<<<<<<< HEAD
                         {% if this.is_child_of('/webconf') %}https://ti.to/six-feet-up/indypy-web-conf-2019{% endif %}
                         {% if this.is_child_of('/pydata') %}https://ti.to/six-feet-up/pydata-indy-2019{% endif %}")
-=======
-                        {% if this.is_child_of('/webconf') %}https://ti.to/six-feet-up/indypy-web-conf-2019{% endif %}")
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
                     strong Register#[br]Here
 
             footer
@@ -165,10 +147,7 @@ html
                 )
                 {% if this.is_child_of('/automate') %}{% include "includes/automate_nav.jade" %}{% endif %}
                 {% if this.is_child_of('/webconf') %}{% include "includes/webconf_nav.jade" %}{% endif %}
-<<<<<<< HEAD
                 {% if this.is_child_of('/pydata') %}{% include "includes/pydata_nav.jade" %}{% endif %}
-=======
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
 
         block bottom
             script.
