@@ -111,11 +111,7 @@ body.talks.schedule .schedule-table td > a {
 
 /* WebConf Schedule */
 
-<<<<<<< HEAD
 body.talks.schedule.site-webconf .schedule-table, {
-=======
-body.talks.schedule.site-webconf .schedule-table {
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
     font-size: .8em;
 }
 body.talks.schedule.site-webconf .schedule-table thead td {
@@ -124,10 +120,7 @@ body.talks.schedule.site-webconf .schedule-table thead td {
     text-align: center;
 }
 body.talks.schedule.site-webconf .schedule-table td.time {
-<<<<<<< HEAD
     display: none; /* temporarily hiding time column */
-=======
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
     border-right: 1px solid #e1e1e1;
     font-weight: bold;
     text-align: right;
@@ -141,8 +134,4 @@ body.talks.schedule.site-webconf .schedule-table td.description {
 body.talks.schedule.site-webconf .schedule-table td.track {
     border-right: 1px solid #e1e1e1;
     text-align: center;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 18dcd7644466bad0284d74eab568ede09facbb60
