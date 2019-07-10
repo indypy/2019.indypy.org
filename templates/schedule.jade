@@ -34,9 +34,9 @@ block main
             {% if this.is_child_of('/webconf') %}
             thead
                 td Time
-                td Grand Forum
-                td Breakout A
-                td Breakout B
+                td Track 1
+                td Track 2
+                td Track 3
             {% endif %}
             {% for timeslot in day.program %}
             tr
@@ -75,7 +75,7 @@ block main
                 {% if this.is_child_of('/webconf') %}
                 {% set talk=site.query("/webconf/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
                 {% if talk %}
-                {% for track in ["grand_forum", "breakout_a", "breakout_b"] %}
+                {% for track in ["track_1", "track_2", "track_3"] %}
                 td.track
                     {% for talk in talks %}
                     {% if talk.track == track %}
