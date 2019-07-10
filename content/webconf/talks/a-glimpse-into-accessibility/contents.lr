@@ -1,0 +1,28 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: PJ Hagerty
+---
+bio:
+Developer, writer, speaker, musician, and founder of DevRelate.io, PJ is known to travel the world speaking about programming and the way people think and interact. He is also known for wearing hats.
+---
+company: DevRelate.io
+---
+twitter: @aspleenic
+---
+website: http://devrelate.io
+---
+title:  A Glimpse into Accessibility
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 10:00am
+---
+track: track_1
+---
+abstract:
+
+When we build applications for the modern world, we think of our users as much as possible. But what about those who are on the fringes, outside of the average.
+
+This talk will take a look at accessibility, how to design applications with users with disabilities in mind.
