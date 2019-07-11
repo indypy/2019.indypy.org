@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Dmitry Vinnik
+---
+bio:
+Dmitry Vinnik is a Lead Software Engineer at Salesforce and has been passionate about Software Quality since the very beginning of his career. He started out as a Quality Engineer, and was able to bring test expertise into his current Software Engineering role to ensure delivery of a high quality product. Dmitry is also a Scrum Master focused on making his team more efficient and productive. His background involves studying medicine and bioinformatics in addition to software and quality engineering.
+---
+company: Salesforce
+---
+twitter: @DmitryVinnik
+---
+website: https://www.salesforce.com/
+---
+title:  Gauge + Taiko: BDD (Behaviour Driven Development) for Web Revived
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 4:30pm
+---
+track: track_1
+---
+abstract:
+In this talk, we discuss how to make BDD a success in your team with Gauge and Taiko. We dive deep into these two tools to have both an effective web testing infrastructure, and a communication channel within the organization.

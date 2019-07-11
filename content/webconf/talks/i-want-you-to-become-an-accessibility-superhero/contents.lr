@@ -5,7 +5,7 @@ _template: talk.jade
 speaker: Rob Porter
 ---
 bio:
-Rob Porter is a Developer at Six Feet Up
+Rob Porter is a Developer at Six Feet Up.
 ---
 company: Six Feet Up, Inc.
 ---
@@ -17,7 +17,7 @@ title:  I Want You To Become An Accessibility Superhero
 ---
 scheduled_date: 2019-08-23
 ---
-scheduled_time: 10:45am
+scheduled_time: 5:30pm
 ---
 track: track_1
 ---
