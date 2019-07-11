@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Chrissy Wainwright
+---
+bio:
+Chrissy is the Director of Engineering at Six Feet Up, and current Vice President of the Plone Foundation. She has 11 years of experience working with Plone both on the front-end and back-end.
+---
+company: Six Feet Up, Inc.
+---
+twitter: @cdw9
+---
+website: https://sixfeetup.com
+---
+title:  Migrations Made Easy with Transmogrifier
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 3:00pm
+---
+track: track_3
+---
+abstract:
+
+A walk-through introduction to migrating your Plone content into a new Plone 5 site.

@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Kim Nguyen
+---
+bio:
+Project Strategy Director at Six Feet Up, Inc. (https://sixfeetup.com), member of the Plone Foundation Board (https://plone.org)
+---
+company: Six Feet Up, Inc.
+---
+twitter: @tkimnguyen
+---
+website: https://sixfeetup.com
+---
+title:  Castle in the Cloud
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 1:00pm
+---
+track: track_2
+---
+abstract:
+
+Stay tuned for more details!

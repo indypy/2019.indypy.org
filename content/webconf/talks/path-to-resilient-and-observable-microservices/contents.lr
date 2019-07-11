@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Peter Jausovec
+---
+bio:
+Peter Jausovec is a Consulting Member of Technical Staff at Oracle working on the serverless framework called Fn Project. He has 10+ years of experience in the field of software development and tech, in various roles such as QA (test), software engineering and leading tech teams. He’s been working in the cloud-native space for the past could of years, and delivering talks and workshops around the world. Before joining Oracle, he worked for Microsoft in Redmond, Washington. He holds a Master degree in Computer Science from the University of Maribor, Slovenia.
+---
+company: Oracle
+---
+twitter: @pjausovec
+---
+website:
+---
+title:  Path to Resilient and Observable Microservices
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 10:45am
+---
+track: track_2
+---
+abstract:
+
+This session will present techniques that can help you test and validate services resiliency. With the help of the service mesh, we will also show how to apply common configuration across the whole mesh and explain how to read the numerous metrics collected by the mesh and detect anomalies sooner.

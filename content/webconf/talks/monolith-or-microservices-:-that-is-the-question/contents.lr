@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Peter Eijgermans
+---
+bio:
+Peter is an adventurous and passionate CodeSmith at Ordina Netherlands. He likes to travel around the world with his bike. Always seeking for the unexpected and unknown. For his job he tries out the latest techniques and architecture like Microservices. He loves to speak on conferences like JAX DEVOPS, JFall and Devoxx. In his leisure he writes technical articles for the Java Magazine and DZone. He gives workshops at Ordina. One day he would like to be a Java Champion or a Java Rockstar.
+---
+company: Ordina Netherlands
+---
+twitter: @EijgermansPeter
+---
+website: https://dzone.com/articles/microservices-yes-but-no-spaghetti-please
+---
+title:  Monolith or Microservices: That Is The Question
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 10:00am
+---
+track: track_2
+---
+abstract:
+
+In 1997 Peter Eijgermans was attacked by a rhinoceros in Nepal / Tibet. In this context, the rhinoceros represents a Monolith. Peter used this metaphore to start his talk about Monolith or Microservices. It is a interactive session with lots of fun and discussion.
