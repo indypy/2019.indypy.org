@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Nejc Zupan
+---
+bio:
+Geek since he was able to walk, Nejc developed his first game in primary school, won the national robotics championship in high-school and co-founded Niteo while still in college. He spoke at conferences in Brasil, Kenya, plenty in Europe and the US, mostly relating to the Web, Python and productivity. Whenever he is not coding away he is chasing big waves around the World.
+---
+company: Niteo
+---
+twitter: @nzupan
+---
+website: https://niteo.co/
+---
+title:  Building robust APIs
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 10:45am
+---
+track: track_1
+---
+abstract:
+
+This talk will showcase how to use pyramid_openapi3 for building robust RESTful APIs. With only a few lines of code you get automatic validation of requests and responses against an OpenAPI v3 schema. You also get automatically generated “try-it-out” style documentation for your API.

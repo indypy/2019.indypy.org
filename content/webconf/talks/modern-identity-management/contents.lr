@@ -1,0 +1,29 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Mercedes Wyss
+---
+bio:
+Mercedes Wyss is a software engineer with more than seven years of experience in the backend, frontend and Android development using Python, Java and Kotlin. Currently, she is a CTO at Produactivity, a startup based in Guatemala.
+
+She was previously organizing meetings in Guatemala Java Users Group from 2012 to 2016. Since 2016 she is focusing on increasing women’s participation in STEAM by running a JDuchess Chapter in Guatemala and is the leader of a Google community (Devs+502).
+
+She is an Oracle Groundbreaker Ambassador and an Auth0 Ambassador, she also has a Duke’s Choice Award in Educational Outreach.
+---
+company: Produactivity
+---
+twitter: @itrjwyss
+---
+website: http://produactivity.com/
+---
+title:  Modern Identity Management
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 1:45pm
+---
+track: track_1
+---
+abstract:
+Identity Management is an umbrella term for all of the core logic around identity. The main purpose of this talk is gain an in-depth knowledge of terms like manage provisioning, account management, identity governance, authentication, authorization, identity federation, how improve this with IDaaS

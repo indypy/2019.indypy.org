@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Kim Nguyen
+---
+bio:
+Project Strategy Director at Six Feet Up, Inc. (https://sixfeetup.com), member of the Plone Foundation Board (https://plone.org)
+---
+company: Six Feet Up, Inc.
+---
+twitter: @tkimnguyen
+---
+website: https://sixfeetup.com
+---
+title:  The Power of React Hooked To The Ultra Secure Plone Content Repository
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 1:00pm
+---
+track: track_1
+---
+abstract:
+
+Plone 6 will be getting Volto, a revolutionary React-based front end, that will open up Plone app development and theming accessible to a new generation of integrators and designers. What does Volto look like, and how will integrators and designers work with it?
