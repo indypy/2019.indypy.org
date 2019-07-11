@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker:
+---
+bio:
+
+---
+company:
+---
+twitter:
+---
+website:
+---
+title:  Testing Salt Formulas with kitchen-salt
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 4:30pm
+---
+track: track_3
+---
+abstract:
+
+Stay tuned for more details!

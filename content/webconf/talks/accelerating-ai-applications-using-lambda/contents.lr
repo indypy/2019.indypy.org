@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Glenn Franxman
+---
+bio:
+Glenn Franxman is a Senior Developer at Six Feet Up.
+---
+company: Six Feet Up, Inc.
+---
+twitter: @sixfeetup
+---
+website: https://sixfeetup.com
+---
+title:  Accelerating AI Applications Using Lambda
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 5:30pm
+---
+track: track_2
+---
+abstract:
+Stay tuned for more details!

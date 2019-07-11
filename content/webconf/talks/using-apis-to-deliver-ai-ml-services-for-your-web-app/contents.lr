@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Luther Hill
+---
+bio:
+Currently, work in the operations department of the Army Medical Department focused on improving operational efficiencies, marketing spends and retention of our workforce. Previousely I was a Reconisince Specialist deployed to various war zones around the world. During that time I gained a love and appreciation for how data and artificial intelligence can help solve complex problems. I enjoy working with text and image data to better understand how computers can leverage large amounts of data and compute to provide meaningful insights at scale.
+---
+company: Army Medical Department
+---
+twitter:
+---
+website: https://www.linkedin.com/in/analyst-data/
+---
+title:  Using APIs to Deliver AI/ML Services For Your Web App
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 4:30pm
+---
+track: track_2
+---
+abstract:
+The future of computer intelligence is AI/ML as a service. Using API’s to deliver machine intelligence will radically change the way we are able to build intelligence into our applications. It will give developers and novices the chance to build the next revolutionary breakthrough.

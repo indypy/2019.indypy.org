@@ -1,0 +1,29 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Alizishaan Khatri
+---
+bio:
+Alizishaan’s professional passions revolve around two things : using technology to solve real-world problems and sharing solutions with the community. He is currently employed as a Machine Learning Engineer with Pivotus where he works on problems in the Natural Language Processing space. Over the summer of 2017, he designed and built an offensive content detection system for a Silicon Valley company. Past industry projects include a price-prediction system for cars and a status communication system that minimized false alerts.
+
+Outside of work, Alizishaan’s passions include mountaineering, skiing, traveling and photography.
+---
+company: Pivotus
+---
+twitter: @alyekhatri
+---
+website: https://www.linkedin.com/in/alizishaan-khatri-32a20637/
+---
+title:  Serverless Adventures In The World of Deep Learning
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 3:45pm
+---
+track: track_2
+---
+abstract:
+Do you marvel at the idea of production-grade Deep Learning that can scale infinitely in nearly constant time?
+
+Using an NLP application as an example, you will learn how to design, build and deploy deep learning systems using serverless computing (Function As A Service). PS: Talk contains code!

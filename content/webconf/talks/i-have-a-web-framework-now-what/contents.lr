@@ -1,0 +1,27 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Pradeep Gowda
+---
+bio:
+Pradeep has been programming Python for nearly two decades and been a member of IndyPy for more than one. His recent Python project was an API that collects sensor data from across the world. He works for a cybersecurity company.
+
+Favorite Zen of Python: Beautiful is better than ugly.
+---
+company:
+---
+twitter: @btbytes
+---
+website: https://www.btbytes.com
+---
+title:  I Have A Web Framework, Now What?
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 10:00am
+---
+track: track_3
+---
+abstract:
+Regardless of framework you choose, these are the top things you have to do to make your application successful for years to come.

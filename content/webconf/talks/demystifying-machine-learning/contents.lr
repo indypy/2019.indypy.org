@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Nikola Novakovic
+---
+bio:
+I'm a software engineer that got his hands on a computer when he was 9 years old. Ever since then I’ve fallen in love with software and building things. Currently very passionate about machine learning, APIs and start ups. In my spare time I like to train dogs, lift weights and cook.
+---
+company: SafeChain
+---
+twitter: @novica93
+---
+website: https://novarac.com
+---
+title:  Demystifying Machine Learning
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 3:00pm
+---
+track: track_2
+---
+abstract:
+Machine Learning (ML) is something you’ll see referenced very frequently now in everything from marketing materials to sales pitches. With so much hype it can be hard to distinguish what people mean when they say ML. In this talk we’ll demystify ML by understanding its core concepts and principles.
