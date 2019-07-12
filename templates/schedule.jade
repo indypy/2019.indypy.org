@@ -73,8 +73,8 @@ block main
                 {% endif %}
 
                 {% if this.is_child_of('/webconf') %}
-                {% set talk=site.query("/webconf/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
-                {% if talk %}
+                {% set talks=site.query("/webconf/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)) %}
+                {% if talks %}
                 {% for track in ["track_1", "track_2", "track_3"] %}
                 td.track
                     {% for talk in talks %}
