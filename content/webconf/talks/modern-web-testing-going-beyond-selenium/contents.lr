@@ -19,7 +19,7 @@ scheduled_date: 2019-08-23
 ---
 scheduled_time: 1:00pm
 ---
-track: track_1
+track: track_3
 ---
 abstract:
 In this talk, we dive into platform-specific Selenium solutions like Protractor, and discuss non-Selenium frameworks like TestCafe and Cypress.io. We discuss how Rapid Test Development practices empower these non-Selenium test frameworks.

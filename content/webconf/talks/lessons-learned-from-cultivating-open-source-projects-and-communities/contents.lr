@@ -22,7 +22,7 @@ scheduled_date: 2019-08-23
 ---
 scheduled_time: 9:15am
 ---
-track: track_1
+track:
 ---
 abstract:
 
