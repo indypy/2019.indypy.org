@@ -2,7 +2,7 @@ _template: venue.jade
 ---
 title: Our Venue
 ---
-background: /static/backgrounds/webconf-venue.jpg
+background: /static/backgrounds/iStock-951714878.jpg
 ---
 body:
 
