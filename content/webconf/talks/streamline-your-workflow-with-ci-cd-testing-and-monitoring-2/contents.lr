@@ -1,0 +1,26 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Kyle Burns
+---
+bio:
+---
+company: Microsoft Azure
+---
+twitter:
+---
+website:
+---
+title:  Streamline your Workflow With CI, CD, Testing and Monitoring
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 10:45am
+---
+track: track_3
+---
+abstract:
+Your code is only as good as how consistently it is deployed. Build and deployment automation move quickly and break fewer things.
+
+We’ll show you how to use free cloud-based services to build, test, deploy, run, monitor and operate your Python projects.
