@@ -85,8 +85,11 @@ block main
                     {% endfor %}
                 {% endfor %}
                 {% else %}
-                td.description(colspan=3)
-                    #[span.label {{ timeslot.description }}]
+                <td colspan="3" class="{% if timeslot.type == 'nontalk' %}muted{% endif %}">
+                {% if timeslot.link %}<a href="{{ timeslot.link }}">{% endif %}
+                #[span.label {{ timeslot.description }}]
+                {% if timeslot.link %}</a>{% endif %}
+                </td>
                 {% endif %}
                 {% endif %}
 

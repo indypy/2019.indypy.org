@@ -127,13 +127,14 @@ body.talks.schedule.site-webconf .schedule-table td.time {
     text-align: right;
     width: 5em;
 }
-body.talks.schedule.site-webconf .schedule-table td.description {
+body.talks.schedule.site-webconf .schedule-table td.muted {
     background-color: #e5e5e5;
-    border-right: 1px solid #e1e1e1;
-    text-align: center;
 }
-body.talks.schedule.site-webconf .schedule-table td.track {
+body.talks.schedule.site-webconf .schedule-table td {
     border-right: 1px solid #e1e1e1;
     text-align: center;
     width: 252px;
+}
+body.talks.schedule.site-webconf .schedule-table td:last-of-type {
+    border-right: none;
 }
