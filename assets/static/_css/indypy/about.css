@@ -67,6 +67,12 @@ body.about.organizers .contact a {
     line-height: 50px;
     margin-right: 10px;
 }
+body.site-webconf.about.organizers .contact a {
+    background: #0E0E9A;
+}
+body.site-pydata.about.organizers .contact a {
+    background: #92278f;
+}
 body.about.organizers .contact a:hover {
     opacity: 0.5;
 }

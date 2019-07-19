@@ -116,6 +116,9 @@ a {
 a:hover {
     color: #0C7BF4;
 }
+.site-webconf a {
+    color: #0E0E9A;
+}
 input,
 select {
     margin-top: 0;
@@ -320,7 +323,7 @@ header nav {
     header nav a {
         display: block;
         position: relative;
-        color: inherit;
+        color: inherit !important;
         text-decoration: none;
     }
     header nav a:hover {
