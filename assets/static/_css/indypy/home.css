@@ -39,7 +39,8 @@ body.home #intro .main .logo {
     }
 }
 
-body.home #welcome {
+body.home #welcome,
+body.about #why {
     background-color: #0E0E9A;
     color: #FFF;
 }

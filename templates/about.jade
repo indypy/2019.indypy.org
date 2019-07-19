@@ -16,7 +16,27 @@ block main
             .inner
                 .container
                     .row.fade-up(in-view)
+                        {% if this.is_child_of('/pydata') or this.is_child_of('/automate') %}
                         .one-half.column
                             h2 {{ this. title }}
                         .one-half.column
                             {{ this.body.html }}
+                        {% endif %}
+
+                        {% if this.is_child_of('/webconf') %}
+                        .one-half.column
+                            h2 {{ this. title }}
+                            {{ this.body.html }}
+                        .one-half.column
+                            {{ this.body2.html }}
+                        {% endif %}
+    {% if this.is_child_of('/webconf') %}
+    section#why
+        .main.vcontainer
+            .inner
+                .container
+                    .one-half.column
+                        {{ this.body3.html }}
+                    .one-half.column
+                        {{ this.body4.html }}
+    {% endif %}
