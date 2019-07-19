@@ -2,18 +2,21 @@ _template: venue.jade
 ---
 title: Our Venue
 ---
-background: /static/backgrounds/webconf-venue.jpg
+background: /static/backgrounds/venue.jpg
 ---
 body:
 
-**Forum Conference & Events Center (Fishers, IN)**
+**Regions Tower (Indianapolis, IN)**
 
-The Forum Conference & Events Center is a large event space, where we will be breaking the conference into
-3 sessions throughout the course of the day.
+Launch Fishers is a co-working space located in Fishers, IN. In the
+building are startups, entrepreneurs and creative companies working across
+an open floor plan.
 
-Our location for PyData Indy is the Forum Conference & Events Center.
+Our location for PyData Indy is the Regions Tower. As the only rooftop venue
+in Indy, you won’t see another event quite like it.
 
-Around the venue are a wide variety of restaurants, coffee shops and shopping opportunities. This bustling
-area is only 20 minutes from Downtown Indianapolis.
+Around the venue are a wide variety of restaurants, coffee shops and shopping
+opportunities. In the heart of downtown Indianapolis, the Regions Tower is
+only an 8 minute walk to the iconic Soldiers and Sailors Monument.
 
 ---

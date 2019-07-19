@@ -21,7 +21,7 @@ block main
                         .one-half.column
                             {{ this.body.html }}
 
-        {% if this.is_child_of('/automate') %}
+        {% if this.is_child_of('/automate') or this.is_child_of('/pydata') %}
         a.down(ng-click="scrollTo('accommodations')")
             {% include "includes/chevron-down.svg" %}
         {% endif %}
@@ -55,11 +55,11 @@ append bottom
         {% endif %}
 
         {% if this.is_child_of('/pydata') %}
-        var venueCoordinates = [39.950266, -86.002970,17];
-        var popUpContent = '<h3>Forum Conference & Events Center</h3>' +
-            '11313 USA Pkwy<br>' +
-            'Fishers, IN 46037<br><br>' +
-            '<a style="color: black" href="https://goo.gl/maps/NDMGXvAhtwm">View on Google Maps</a>'
+        var venueCoordinates = [39.7704481,-86.155828];
+        var popUpContent = '<h3>JPS Events at<br>Regions Tower</h3>' +
+            '211 N Pennsylvania St<br>' +
+            'Indianapolis, IN 46204<br><br>' +
+            '<a style="color: black" href="https://goo.gl/maps/zNdeMxpVCD1GDr5GA">View on Google Maps</a>'
         {% endif %}
 
         var map = L.map(
