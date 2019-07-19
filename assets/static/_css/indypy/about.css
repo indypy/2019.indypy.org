@@ -76,6 +76,9 @@ body.site-pydata.about.organizers .contact a {
 body.about.organizers .contact a:hover {
     opacity: 0.5;
 }
+body.site-webconf.about.page_the-conference #main .main a {
+    color: #fff;
+}
 @media screen and (max-width: 500px) {
     body.about.page_the-conference #main .main {
         min-height: 770px;
