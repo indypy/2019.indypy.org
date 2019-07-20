@@ -2,9 +2,9 @@ _hidden: yes
 ---
 name: Plone
 ---
-tier: organizer
+tier: Platinum
 ---
-is_npo: true
+is_npo: false
 ---
 website: https://plone.com
 ---
