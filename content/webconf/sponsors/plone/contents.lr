@@ -1,0 +1,19 @@
+_hidden: yes
+---
+name: Plone
+---
+tier: organizer
+---
+is_npo: true
+---
+website: https://plone.com
+---
+description:
+
+Plone is the full-featured open source web content management system written in Python and with an almost 20 year reputation for unrivaled security and stability
+---
+logo: plone-logo-64.png
+---
+logo_dark_bg: plone-logo-64.png
+---
+signed_on: 2019-07-19
