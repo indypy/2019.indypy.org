@@ -12,20 +12,16 @@ program:
 
 start, end, type, description, link
 
-8:00am, 9:00am, nontalk, Setup & Networking,
-9:00am, 9:15am, nontalk, Opening Remarks by Six Feet Up CTO Calvin Hendryx-Parker,
-9:15am, 9:45am, talk, Lessons Learned from Cultivating Open Source Projects and Communities by JJ Asghar, https://2019.indypy.org/webconf/talks/lessons-learned-from-cultivating-open-source-projects-and-communities/
-9:45am, 10:00am, nontalk, Break,
-10:00am, 10:45am, talk, TBD,
+7:15am, 8:15am, nontalk, Setup & Networking,
+8:15am, 8:25am, nontalk, Opening Remarks by Six Feet Up CTO Calvin Hendryx-Parker,
+8:30am, 9:00am, talk, Keynote by Paul Everitt,
+9:05am, 9:50am, talk, TBD,
+9:55am, 10:40am, talk, TBD,
 10:45am, 11:30pm, talk, TBD,
-11:30pm, 1:00pm, nontalk, Lunch,
-1:00pm, 1:45pm, talk, TBD,
-1:45pm, 2:30pm, talk, TBD,
-2:30pm, 3:00pm, nontalk, Break,
+11:35pm, 12:20pm, talk, TBD,
+12:30pm, 1:15pm, nontalk, Panel Discussion,
+1:20pm, 2:05pm, talk, TBD,
+2:10pm, 2:55pm, talk, TBD,
 3:00pm, 3:45pm, talk, TBD,
-3:45pm, 4:30pm, talk, TBD,
-4:30pm, 5:15pm, talk, TBD,
-5:15pm, 5:30pm, nontalk, Break,
-5:30pm, 6:15pm, talk, TBD,
-6:15pm, 7:00pm, talk, Proactive Programming by PJ Hagerty, https://2019.indypy.org/webconf/talks/proactive-programming/
-7:00pm, 7:15pm, nontalk, Closing Remarks
+3:50pm, 4:25pm, talk, TBD,
+4:30pm, 4:40pm, nontalk, Closing Remarks
