@@ -121,7 +121,6 @@ body.talks.schedule.site-webconf .schedule-table thead td {
     text-align: center;
 }
 body.talks.schedule.site-webconf .schedule-table td.time {
-    display: none; /* temporarily hiding time column */
     border-right: 1px solid #e1e1e1;
     font-weight: bold;
     text-align: right;
