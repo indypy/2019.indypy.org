@@ -3,6 +3,21 @@ doctype html
 html
 
     head
+        {% if this.is_child_of('/automate') %}
+        {% set analytics_id='UA-129348445-4' %}
+        {% elif this.is_child_of('/webconf') %}
+        {% set analytics_id='UA-129348445-5' %}
+        {% elif this.is_child_of('/pydata') %}
+        {% set analytics_id='UA-129348445-7' %}
+        {% endif %}
+        {% if analytics_id %}
+        script(src="https://www.googletagmanager.com/gtag/js?id={{ analytics_id}}")
+        script.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '{{ analytics_id}}');
+        {% endif %}
 
         title
             {% block page_title %}
