@@ -12,7 +12,7 @@ program:
 
 start, end, type, description, link
 
-7:15am, 8:15am, nontalk, Setup & Networking,
+7:45am, 8:15am, nontalk, Setup & Networking,
 8:15am, 8:25am, nontalk, Opening Remarks by Six Feet Up CTO Calvin Hendryx-Parker,
 8:30am, 9:00am, nontalk, Keynote by Paul Everitt,
 9:05am, 9:50am, talk, TBD,
@@ -23,5 +23,9 @@ start, end, type, description, link
 1:20pm, 2:05pm, talk, TBD,
 2:10pm, 2:55pm, talk, TBD,
 3:00pm, 3:45pm, talk, TBD,
-3:50pm, 4:25pm, talk, TBD,
-4:30pm, 4:40pm, nontalk, Closing Remarks
+3:50pm, 3:55pm, nontalk, Lightning Talk
+4:00pm, 4:05pm, nontalk, Lightning Talk
+4:10pm, 4:15pm, nontalk, Lightning Talk
+4:20pm, 4:25pm, nontalk, Lightning Talk
+4:30pm, 4:35pm, nontalk, Lightning Talk
+4:40pm, 4:45pm, nontalk, Closing Remarks
