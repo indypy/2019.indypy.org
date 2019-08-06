@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Paul Everitt
+---
+bio:
+Paul Everitt is a Developer Advocate of PyCharm for JetBrains.
+---
+company: JetBrains
+---
+twitter: @paulweveritt
+---
+website: https://jetbrains.com
+---
+title:  Black Swans, Python 2020 and Modern Web
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 9:00am
+---
+track:
+---
+abstract:
+There’s a meme going around about Python’s future. Russell Keith-Magee’s PyCon keynote warned of Black Swans. At his PyLondinium keynote, Łukasz Langa talked about “Python 2020” to keep Python relevant. Both mentioned the web platform as an existential threat. In this talk we cover what that means, provide detail, and hypothesize about directions and opportunities.
