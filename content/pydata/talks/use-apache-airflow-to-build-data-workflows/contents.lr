@@ -1,0 +1,23 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Luther Hill
+---
+bio:
+Currently, work in the operations department of the Army Medical Department focused on improving operational efficiencies, marketing spends and retention of our workforce. Previousely I was a Reconisince Specialist deployed to various war zones around the world. During that time I gained a love and appreciation for how data and artificial intelligence can help solve complex problems. I enjoy working with text and image data to better understand how computers can leverage large amounts of data and compute to provide meaningful insights at scale.
+---
+company: Army Medical Department
+---
+twitter:
+---
+website: https://www.linkedin.com/in/analyst-data/
+---
+title:  Use Apache-Airflow to Build Data Workflows
+---
+scheduled_date: 2019-10-11
+---
+scheduled_time: 9:45am
+---
+abstract:
+I will discuss the basic concepts of data workflows as well as practical use cases using python and Apache-Airflow.
