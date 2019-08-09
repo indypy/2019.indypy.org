@@ -1,0 +1,24 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Megan Wilhite
+---
+bio: Megan Wilhite is currently a software engineer at Saltstack on the open source core team. Prior to joining SaltStack, she fell in love with Salt and automation at her role as a DevOps Engineer and never looked back. She currently lives in Orlando, Florida with her husband and spoiled dog.
+---
+company: SaltStack
+---
+twitter:
+---
+website:
+---
+title:  Kitchen-Salt and Pytest: Easily Test Your Salt States
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 3:00pm
+---
+track: track_3
+---
+abstract:
+Kitchen-Salt uses Test Kitchen to allow you to easily test your salt states outside of your production environments. This talk will dive into how you can use Kitchen Salt in conjunction with pytest to improve the quality of your Salt states via automated testing.
