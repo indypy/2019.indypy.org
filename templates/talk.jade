@@ -78,4 +78,10 @@ block main
             {% endif %}
 
         .more
+            {% if this.is_child_of('/automate') %}
             a(href="{{ '/automate/talks'|url }}") More Talks
+            {% elif this.is_child_of('/webconf') %}
+            a(href="{{ '/webconf/talks'|url }}") More Talks
+            {% elif this.is_child_of('/pydata') %}
+            a(href="{{ '/pydata/talks'|url }}") More Talks
+            {% endif %}
