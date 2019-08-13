@@ -2,18 +2,18 @@ _model: talk
 ---
 _template: talk.jade
 ---
-speaker: Six Feet Up, Inc.
+speaker: Scott Woodall
 ---
 bio:
-Six Feet Up is a Python and Cloud Consulting company located in Fishers, IN.
+Scott is the Director of Software Development at Ivy Tech Community College.
 ---
-company: Six Feet Up, Inc.
+company: Ivy Tech Community College
 ---
-twitter: @sixfeetup
+twitter: @scott_woodall
 ---
-website: https://sixfeetup.com
+website: https://ivytech.edu
 ---
-title:  Accelerating AI Applications Using Lambda
+title:  Django Best Practices
 ---
 scheduled_date: 2019-08-23
 ---
