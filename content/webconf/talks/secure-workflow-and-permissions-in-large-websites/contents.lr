@@ -2,14 +2,14 @@ _model: talk
 ---
 _template: talk.jade
 ---
-speaker: Kim Nguyen
+speaker: Anthony Bosio
 ---
 bio:
-Project Strategy Director at Six Feet Up, Inc. (https://sixfeetup.com), member of the Plone Foundation Board (https://plone.org)
+Anthony is a Developer at Six Feet Up, Inc.
 ---
 company: Six Feet Up, Inc.
 ---
-twitter: @tkimnguyen
+twitter: @abosio
 ---
 website: https://sixfeetup.com
 ---
@@ -23,5 +23,3 @@ track: track_1
 ---
 abstract:
 Does your organization struggle to keep its website or intranet content up to date? Learn the best practices for maintaining and managing large amounts of content with a lean team of content editors and contributors. Leverage the security and user/group management features and the sophisticated workflow of modern content management systems to automate time consuming processes so your website and intranet content remain in top shape!
-
-Stay tuned for more details!
