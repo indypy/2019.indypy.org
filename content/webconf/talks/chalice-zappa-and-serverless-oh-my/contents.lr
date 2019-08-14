@@ -1,0 +1,28 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: James Alexander
+---
+bio:
+I am a software developer living in Indianapolis, Indiana. I have 10 years of experience working in .NET, specifically writing C# applications. I started writing Python code in my spare time starting in 2010, when I bought my first Macbook Pro. Since 2017, I have been writing Python Apps professionally, and am part of our Cloud Services Team, specializing in supporting Amazon Web Services infrastructure.
+
+Since 2011, my wife and I have taken Ballroom dancing lessons. The studio we attend has events throughout the year that we participate in, and some of the videos we have taken can be found on my blog and on my YouTube channel.
+
+---
+company: Leaf Software Solutions
+---
+twitter: @yanigisawa
+---
+website: https://jamesralexander.com
+---
+title:  Chalice -  Zappa - and Serverless - Oh My!
+---
+scheduled_date: 2019-04-12
+---
+scheduled_time: 11:35am
+---
+track: track_2
+---
+abstract:
+This talk will be an introduction to “serverless” hosting Python web Applications. We’ll cover what “serverless” means, and introduce three different deployment frameworks for deploying Python. This talk will be targeted at AWS, but we will also touch on how to deploy the same Python code to other cloud hosting providers.
