@@ -5,7 +5,7 @@ _template: talk.jade
 speaker: Anthony Bosio
 ---
 bio:
-Anthony is a Developer at Six Feet Up, Inc.
+Anthony Bosio is a developer at Six Feet Up where he does front-end development and other Plone customizations as  well as some work in Django. He came to web development from a background in graphic design and in 2008, he was part of university web team that chose Plone open source content management system for its enteprise-level features, especially roles and workflows.
 ---
 company: Six Feet Up, Inc.
 ---
