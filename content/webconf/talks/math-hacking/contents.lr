@@ -1,0 +1,24 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Zach Cardwell
+---
+bio:
+---
+company: Data317
+---
+twitter: 
+---
+website: https://www.data317.com/
+---
+title:  Math Hacking
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 3:00pm
+---
+track: track_2
+---
+abstract:
+Machine Learning is awesome, but understanding data is key if your going to build a successful product. Sometimes just by shifting your perspective mathematically, you can find a "math hack" that greatly improves a solution without need of other complicated techniques. In this talk I'll show some examples of this including fraud detection and natural language processing, show a bit about my common python tool kit, and point you to some awesome resources that can help you find these hacks.
