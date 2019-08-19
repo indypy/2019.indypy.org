@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Jason Rowley
+---
+bio:
+Jason is a Venture Capitol Data Journalist at Crunchbase and the PyCon Startup Row Co-Chair at the Python Software Foundation.
+---
+company: Crunchbase, Python Software Foundation
+---
+twitter: @Jason_Rowley
+---
+website: https://news.crunchbase.com/news/author/jasonrowley/
+---
+title:  Benefits of using Python for your startup - Panel Discussion
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time: 12:30pm
+---
+track:
+---
+abstract:
+In this panel, we will discuss reasons for choosing Python as the language for startup companies. We'll discuss benefits, pitfalls, and lessons learned along the way.
