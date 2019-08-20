@@ -1,0 +1,18 @@
+_hidden: yes
+---
+name: Python Software Foundation
+---
+tier: fiscal sponsor
+---
+is_npo: false
+---
+website: https://www.python.org/psf/
+---
+description:
+The Python Software Foundation (PSF) is a 501(c)(3) non-profit corporation that is the fiscal sponsor of IndyPy. The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers.
+---
+logo: PSF-Logo.png
+---
+logo_dark_bg: PSF-Logo White.png
+---
+signed_on: 2019-08-01
