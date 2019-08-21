@@ -725,6 +725,18 @@ footer .links li a:hover {
     height: 70px;
 }
 
+#sponsors .sponsor-logos .item.fiscal.sponsor .logo,
+#sponsors .sponsor-logos .item.fiscal.sponsor_npo .logo {
+    width: 200px;
+    height: 80px;
+}
+
+#sponsors .sponsor-logos .item.media.sponsor .logo,
+#sponsors .sponsor-logos .item.media.sponsor_npo .logo {
+    width: 120px;
+    height: 70px;
+}
+
 #sponsors .sponsor-logos .item a {
     display: block;
     width: 100%;
