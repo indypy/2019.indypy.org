@@ -22,4 +22,10 @@ scheduled_time: 3:00pm
 track: track_1
 ---
 abstract:
-Stay tuned for more details!
+Ivy Tech Community College has leveraged Django for custom application development for the past nine years. With over 30 applications in production, we've learned some things and would like to share that knowledge.
+
+This talk will encompass some best practices around:
+- Code organization
+- Tips and tricks around Django models, forms, views, and templates
+- Postgres performance tips
+- How to make a server-side rendered app feel like a SPA 
