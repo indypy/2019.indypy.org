@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Duane Musser
+---
+bio:
+Duane Musser is the Manager of Engineering at DoubleMap. DoubleMap is the provider of an innovative intelligent transportation system (ITS) for public transit and university systems. The DoubleMap team is proud to offer a nimble solution built on the latest technology and focused on ease of use. Clients are spread across 26 states and multiple continents including major city transit systems, top university transit and Fortune 500 shuttles.
+---
+company: DoubleMap
+---
+twitter: @duane_musser
+---
+website: https://www.linkedin.com/in/duanemusser/
+---
+title:  Benefits of using Python for your startup - Panel Discussion
+---
+scheduled_date: 2019-08-23
+---
+scheduled_time:
+---
+track:
+---
+abstract:
+In this panel, we will discuss reasons for choosing Python as the language for our startup companies. We'll discuss benefits, pitfalls, and lessons learned along the way.
