@@ -22,5 +22,6 @@ scheduled_time: 3:00pm
 track: track_3
 ---
 abstract:
+Salt is way more than a configuration management tool. It supports many types of other activities such as remote execution and full-blown system orchestration. It can be used as a replacement for remote task tools such as Fabric or Paver.
 
-Stay tuned for more details!
+Six Feet Up CTO Calvin Hendryx-Parker will look at how you can configure your own Salt Master and give it REST API capabilities. He’ll explain how you can respond to events on the Salt event system to trigger actions in the infrastructure. He will also look at how you can setup simple orchestrations to automate common tasks such as backing up databases before you release your application.

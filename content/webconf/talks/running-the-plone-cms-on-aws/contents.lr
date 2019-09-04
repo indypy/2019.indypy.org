@@ -22,5 +22,4 @@ scheduled_time: 10:45am
 track: track_2
 ---
 abstract:
-
-Stay tuned for more details!
+You can go from the closet to the cloud even with applications that were designed prior to the invention of the public cloud. Using a cloud-based approach, we can leverage the native tools provided to us by a public cloud like AWS. Moving our database into RDS and our blobstorage to EFS allows us to scale our architecture easily and not worry about misbehaving application servers. Leveraging delivery tools such as CloudFront and the Elastic Load Balancers allows us to deliver content quickly around the globe and scale out when needed without managing the servers that make it possible. Calvin and Kim will take you on a journey discussing and showing examples directly from real client work.
