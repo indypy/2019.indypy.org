@@ -1,0 +1,23 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Kristin Day
+---
+bio:
+I am an extraordinarily curious data scientist who lives for experimentation with the hope of discovering new ways to make improvements with data and artificial intelligence. I began my AI adventure at Indiana University while completing my Master of Science in Data Science (MSDS). I have been developing and implementing AI systems professionally even before completing my degree (summer 2016). My greatest hope is to infect others with my excitement for all things data.
+---
+company: HealthAI
+---
+twitter:
+---
+website: https://www.healthai.us/
+---
+title:  Artificial Intelligence: The Future of Healthcare
+---
+scheduled_date: 2019-10-11
+---
+scheduled_time: 2:15pm
+---
+abstract:
+While advances in machine learning and artificial intelligence have been occurring at a record pace, these advances have not been widely adopted or embraced in the field of healthcare. I will discuss several roadblocks including data bias, messy or missing data, and the expense of data labeling.
