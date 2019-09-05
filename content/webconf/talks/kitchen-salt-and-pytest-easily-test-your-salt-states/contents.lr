@@ -13,6 +13,8 @@ twitter: @CompanionCh3LL
 ---
 website:
 ---
+slides: https://github.com/indypy/IndyPy-Presentations/tree/master/2019/IndyPy%20Confs/08%20-%20August%20-%20Python%20Web%20Conf/08%20-%20August%20-%20Megan%20Wilhite%20-%20Kitchen-Salt%20and%20PyTest:%20Easily%20Test%20Your%20Salt%20States
+---
 title:  Kitchen-Salt and Pytest: Easily Test Your Salt States
 ---
 scheduled_date: 2019-08-23
