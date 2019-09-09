@@ -1,0 +1,25 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Ben Fulton
+---
+bio:
+Ben Fulton is a scientific programmer with Indiana University’s Research Applications and Deep Learning group. He has been involved in software development for more than 30 years, developing videogames, voice over IP, and medical applications. He currently supports a variety of researchers and research projects in multiple disciplines.
+---
+company: Indiana University
+---
+twitter: @benfulton
+---
+website:
+---
+title:  Deep Learning Support at Indiana University
+---
+scheduled_date: 2019-10-11
+---
+scheduled_time: 3:30pm
+---
+abstract:
+The Research Technologies division at Indiana University has been supporting machine learning workflows, and more recently deep learning workflows, for researchers in a variety of scientific and scholarly research projects. The most recent hardware acquisition to facilitate the support of deep learning applications is a 12 node expansion to IU’s Carbonate computing cluster. Eight of these nodes are equipped with dual P100 NVIDIA GPUs and four have dual V100 GPUs. This system is available to any researcher with a deep learning project or experiment.
+
+In addition to providing access to hardware like GPU accelerators the Research Applications and Deep Learning team provides software application support and project consulting to research groups. The Carbonate deep learning (DL) nodes are made available with a variety of ML/DL frameworks including, TensorFlow, PyTorch, Caffe, Keras, CNTK, MxNet, and others. The group has assisted several projects in analyzing the performance of their training algorithms and helped to improve runtimes on the V100 architecture.
