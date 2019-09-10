@@ -1,0 +1,23 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Kristin Day
+---
+bio: I am an electrical engineer who uses machine learning and signal processing to solve problems, develop intelligent systems, and make technology more useful. I received my Ph.D. in Electrical Engineering from Drexel University in June 2017. My thesis focused on developing a non-invasive brain-computer interface for robotic control. I used functional near-infrared spectroscopy (fNIRS) to record activity in the brain's motor area to distinguish between imagined movements of the hands and feet. These predictions were then sent to a robot as commands, allowing the user to control a robot as it navigated a small room.
+---
+company: Cox Automotive
+---
+twitter: @ambatula
+---
+website: https://www.coxautoinc.com/
+---
+title:  What Is Machine Learning, and How Do I Get Started?
+---
+scheduled_date: 2019-10-11
+---
+scheduled_time: 4:15pm
+---
+abstract:
+There’s a lot of information available on machine learning. But where does an interested programmer get started? In this talk I’ll cover the basics of what machine learning is, what problems it’s good at solving, and how to make sure you start in the right direction.
+This talk will cover the basics of how to use and get started with machine learning. Most of the focus will be on high-level concepts rather than math or specific code. I’ll also cover areas that don’t get as much attention, like proper data handling and determining if using machine learning makes sense. These under-appreciated topics are vital to the success of a machine learning project, and are important to think about from the beginning stages.
