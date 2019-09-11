@@ -62,7 +62,7 @@ block main
                 {% endif %}
 
                 {% if this.is_child_of('/pydata') %}
-                {% set talks=site.query("/pydata/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
+                {% set talks=site.query("/pydata/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)) %}
                 td.description
                     {% if talk %}
                     a(href="{{ talk|url }}").
@@ -73,7 +73,7 @@ block main
                 {% endif %}
 
                 {% if this.is_child_of('/webconf') %}
-                {% set talks=site.query("/webconf/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
+                {% set talks=site.query("/webconf/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)) %}
                 {% if talks %}
                 {% for track in ["track_1", "track_2", "track_3"] %}
                 td.track
