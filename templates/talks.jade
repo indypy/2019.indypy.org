@@ -17,6 +17,8 @@ block main
             {% set talks=site.query('/automate/talks') %}
             {% elif this.is_child_of('/webconf') %}
             {% set talks=site.query('/webconf/talks') %}
+            {% elif this.is_child_of('/pydata') %}
+            {% set talks=site.query('/pydata/talks') %}
             {% endif %}
             {% for talk in talks %}
             .item
