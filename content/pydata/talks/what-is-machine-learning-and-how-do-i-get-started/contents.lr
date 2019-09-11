@@ -2,7 +2,7 @@ _model: talk
 ---
 _template: talk.jade
 ---
-speaker: Kristin Day
+speaker: Alyssa Batula
 ---
 bio: I am an electrical engineer who uses machine learning and signal processing to solve problems, develop intelligent systems, and make technology more useful. I received my Ph.D. in Electrical Engineering from Drexel University in June 2017. My thesis focused on developing a non-invasive brain-computer interface for robotic control. I used functional near-infrared spectroscopy (fNIRS) to record activity in the brain's motor area to distinguish between imagined movements of the hands and feet. These predictions were then sent to a robot as commands, allowing the user to control a robot as it navigated a small room.
 ---

@@ -62,7 +62,7 @@ block main
                 {% endif %}
 
                 {% if this.is_child_of('/pydata') %}
-                {% set talk=site.query("/pydata/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)).first() %}
+                {% set talk=site.query("/pydata/talks").filter((F.scheduled_date == day.date).and(F.scheduled_time == timeslot.start)) %}
                 td.description
                     {% if talk %}
                     a(href="{{ talk|url }}").
