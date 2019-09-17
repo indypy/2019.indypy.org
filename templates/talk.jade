@@ -15,7 +15,7 @@ block main
     .container
 
         h1 {{ this.title }}
-        .byline {{ this.speaker }}
+        .byline {{ this.speaker }}{% if this.speaker2 %} & {{ this.speaker2 }}{% endif %}
         .abstract
             p {{ this.abstract.html }}
 
@@ -60,23 +60,43 @@ block main
                 ).
                     #[i.fa.fa-twitter] {{ this.twitter }}
             {% endif %}
-            {% if this.instagram %}
-            .instagram
-                a(
-                    href="https://www.instagram.com/{{ this.instagram }}",
-                    target="_blank"
-                ).
-                    #[i.fa.fa-instagram] {{ this.instagram }}
-            {% endif %}
-            {% if this.github %}
-            .github
-                a(
-                    href="https://www.github.com/{{ this.github }}",
-                    target="_blank"
-                ).
-                    #[i.fa.fa-github] {{ this.github }}
-            {% endif %}
+             
 
+    {% if this.speaker2 %}
+    .container
+        {% set headshot = this.attachments.get('headshot2.jpg') %}
+        {% if headshot %}
+        .headshot.image.bg-contain(
+            ff-bg="{{ headshot.thumbnail(200)|url }}",
+            ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
+        )
+        {% else %}
+        .headshot.image.bg-contain(
+            ff-bg="/static/images/headshot.png",
+            ff-bg-2x="/static/images/headshot.png",
+        )
+        {% endif %}
+
+        h2 About {{ this.speaker2 }}
+        .biography
+            {{ this.bio2.html }}
+        .contact
+            {% if this.website2 %}
+            .url
+                a(href="{{ this.website2 }}", target="_blank").
+                    #[i.fa.fa-external-link] {{ this.website2 }}
+            {% endif %}
+            {% if this.twitter2 %}
+            .twitter
+                a(
+                    href="https://www.twitter.com/{{ this.twitter2 }}",
+                    target="_blank"
+                ).
+                    #[i.fa.fa-twitter] {{ this.twitter2 }}
+            {% endif %}
+    {% endif %}
+
+    .container
         .more
             {% if this.is_child_of('/automate') %}
             a(href="{{ '/automate/talks'|url }}") More Talks

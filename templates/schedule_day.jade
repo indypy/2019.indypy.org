@@ -31,7 +31,7 @@ block main
                     {% set talk=site.query("/automate/talks").filter((F.scheduled_date == this.date).and(F.scheduled_time == timeslot.start)).first() %}
                     {% if talk %}
                     a(href="{{ talk|url }}").
-                        #[span.speaker {{ talk.speaker }}]: #[span.title {{ talk.title }}]
+                        #[span.speaker {{ talk.speaker }}{% if this.speaker2 %} & {{this.speaker2}}{% endif %}]: #[span.title {{ talk.title }}]
                     {% else %}
                     #[span.label {{ timeslot.description }}]
                     {% endif %}
