@@ -2,16 +2,16 @@ _model: talk
 ---
 _template: talk.jade
 ---
-speaker: James N. Davis
+speaker2: James N. Davis
 ---
-bio:
+bio2:
 James currently works at Eli Lilly as a Sr. Associate Clinical Data Analytics where he develops models used in clinical drug development. James has a passion for data analytics and Python.  James is a proud graduate of Kelly School of Business at Indiana University where he majored in Finance.  In his free time he is an avid agriculturalist and has explored methods to increase farm automation utilizing Python.
 ---
-company: Eli Lilly and Company
+company2: Eli Lilly and Company
 ---
-twitter:
+twitter2:
 ---
-website: https://www.linkedin.com/in/james-davis-a13b4378/
+website2: https://www.linkedin.com/in/james-davis-a13b4378/
 ---
 title:  Business Impact of Industry 4.0
 ---
