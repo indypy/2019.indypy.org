@@ -17,7 +17,7 @@ title:  Use Apache-Airflow to Build Data Workflows
 ---
 scheduled_date: 2019-10-11
 ---
-scheduled_time: 9:45am
+scheduled_time: 2:15pm
 ---
 abstract:
 I will discuss the basic concepts of data workflows as well as practical use cases using python and Apache-Airflow.
