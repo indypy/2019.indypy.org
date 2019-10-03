@@ -1,0 +1,24 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Justin Bolles
+---
+bio:
+Justin Bolles is a Senior Software Architect at KSM Consulting, leading a software development team in the Business Applications practice. He works across KSMC teams to develop end-to-end solutions for our clients. Justin’s background in full stack, web, mobile, and embedded development gives him the depth of knowledge to fit the right technology to the business problem. His technical skills range from implementing standard CMS tools to writing embedded code for custom hardware.
+
+Justin's project experience spans from leading the development of mobile apps for Simon Property Group to designing and developing a web app for a startup company that tracks healthy recipes geared toward senior citizens.
+---
+company: KSM Consulting
+---
+twitter: @KSM_Consulting
+---
+website: https://www.ksmconsulting.com/
+---
+title:  State of Modern Programming
+---
+scheduled_date: 2019-10-11
+---
+scheduled_time: 9:15am
+---
+abstract:
