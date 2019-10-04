@@ -24,4 +24,11 @@ scheduled_date: 2019-10-11
 scheduled_time: 1:30pm
 ---
 abstract:
-I will discuss the basic concepts of data workflows as well as practical use cases using python and Apache-Airflow.
+Reference architectures provide an authoritative source of information about a specific subject area that guides and constrains the instantiations of multiple architectures and solutions. Reference architectures generally serve as a foundation for solution architectures and may also be used for comparison and alignment of instantiations of architectures and solutions. The goal of the NBD-PWG Reference Architecture Subgroup is to develop an open reference architecture for Big Data that achieves the following objectives:
+
+- Provides a common language for the various stakeholders;
+- Encourages adherence to common standards, specifications, and patterns;
+- Provides consistent methods for implementation of technology to solve similar problem sets;
+- Illustrates and improves understanding of the various Big Data components, processes, and systems, in the context of a vendor- and technology-agnostic Big Data conceptual model;
+- Provides a technical reference for U.S. government departments, agencies, and other consumers to understand, discuss, categorize, and compare Big Data solutions; and
+- Facilitates analysis of candidate standards for interoperability, portability, reusability, and extendibility.
